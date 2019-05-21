@@ -1,0 +1,7 @@
+/* pages/sponsor/sponsor.wxss */
+page, .sponsor {
+    height: 100%;
+}
+.head {
+    background: #f08200;
+}
