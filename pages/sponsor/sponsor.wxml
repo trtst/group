@@ -1,6 +1,41 @@
 <view class="container">
     <view class="sponsor">
-        
-        <view class="head"></view>
+        <view class="head">
+            <view class="top" style="padding-top:{{calcData.pt}}px; height:{{calcData.h}}px; line-height:{{calcData.h}}px; "></view>
+            <view class="info">
+                <view class="info-avatar">
+                    <image class="avatar" src="avatar.jpg"></image>
+                </view>
+                <view class="info-name">怀旧的文学小青年</view>
+                <view class="info-desc">这个人很懒，什么都没有留下</view>
+            </view>
+        </view>
+        <view class="list">
+            <view class="item">
+                <view class="item-ico">
+                    <image src="mall.png"></image>
+                </view>
+                <view class="item-name">产品库</view>
+            </view>
+            <view class="item">
+                <view class="item-ico">
+                    <image src="library.png"></image>
+                </view>
+                <view class="item-name">社群商城</view>
+            </view>
+            <view class="item">
+                <view class="item-ico">
+                    <image src="order.png"></image>
+                </view>
+                <view class="item-name">社群订单</view>
+            </view>
+            <view class="item">
+                <view class="item-ico">
+                    <image src="report.png"></image>
+                </view>
+                <view class="item-name">我的报表</view>
+            </view>
+        </view>
     </view>
 </view>
+
