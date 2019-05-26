@@ -1,23 +1,53 @@
 <view class="container">
     <view class="mall">
         <view class="top" style="padding-top:{{calcData.pt}}px; height:{{calcData.h}}px; line-height:{{calcData.h}}px; ">
-            <image class="avatar" src="avatar.jpg"></image>
-            <view class="title">产品库</view>
+            <view class="avatar" style="padding-top:{{calcData.pt}}px; height:{{calcData.h}}px; line-height:{{calcData.h}}px; "><image src="avatar.jpg" mode="aspectFit"></image></view>
+            <view class="title">社群商城</view>
         </view>
         <scroll-view class="list" scroll-y style="height:{{calcData.mainH}}px">
-            <view class="item">
-                <image class="pic" src="avatar.jpg"></image>
-                <view class="item-info">
-                    <view class="item-title">小程序广告组件能力升级</view>
-                    <view class="bottom">
-                        <view class="item-price">
-                            <view class="item-price">供货价：45</view>
-                            <view class="item-price">建议价：35</view>
+            <view class="list-main">
+                <view class="item">
+                    <view class="item-l">
+                        <image class="pic" src="avatar.jpg"></image>
+                        <view class="item-title">花园牛奶</view>
+                    </view>
+                    <view class="item-supply">
+                        <view class="price-name">供货价</view>
+                        <view class="price-num">35</view>
+                    </view>
+                    <view class="item-sale">
+                        <view class="price-name">建议价</view>
+                        <view class="price-num">
+                            <text class="less">-</text>
+                            <input class="price-inp" value="45" />
+                            <text class="add">+</text>
                         </view>
-                        <view class="item-btn">加入</view>
+                    </view>
+                </view>
+                <view class="item">
+                    <view class="item-l">
+                        <image class="pic" src="avatar.jpg"></image>
+                        <view class="item-title">花园牛奶</view>
+                    </view>
+                    <view class="item-supply">
+                        <view class="price-name">供货价</view>
+                        <view class="price-num">35</view>
+                    </view>
+                    <view class="item-sale">
+                        <view class="price-name">建议价</view>
+                        <view class="price-num">
+                            <text class="less">-</text>
+                            <input class="price-inp" value="45" />
+                            <text class="add">+</text>
+                        </view>
                     </view>
                 </view>
             </view>
+           <view class="no-content">
+                <image src="/assets/img/no-content.png" class="no-content-bg" mode="aspectFit"></image>
+                <text class="no-content-title">暂无产品</text>
+            </view>
         </scroll-view>
+        <view class="home"><image src="mall.png"></image></view>
     </view>
 </view>

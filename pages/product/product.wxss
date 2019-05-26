@@ -49,7 +49,7 @@
     font-size: 30rpx;
     line-height: 60rpx;
 }
-.item .item-supply {
+.item .item-info {
     flex: 1;
     padding: 0 15rpx;
     text-align: center;
@@ -57,19 +57,16 @@
 .item .price-name {
     line-height: 120rpx;
 }
-.item .item-sale {
-    flex: 1;
-    padding: 0 15rpx;
+.item .item-btn {
+    width: 140rpx;
+    height: 60rpx;
+    line-height: 60rpx;
     text-align: center;
-}
-.less, .add {
-    display: inline-block;
-    width: 25%;
-    vertical-align: top;
-}
-.price-inp {
-    display: inline-block;
-    width: 30%;
+    margin-top: 60rpx;
+    font-size: 32rpx;
+    border-radius: 30rpx;
+    color: #fff;
+    background: #f08200;
 }
 
 .no-content {
@@ -86,16 +83,4 @@
     font-weight: 500;
     line-height: 50rpx;
     color: #535360;
-}
-
-.home {
-    position: fixed;
-    right: 40rpx;
-    bottom: 100rpx;
-    width: 70rpx;
-    height: 70rpx;
-}
-.home image {
-    width: 100%;
-    height: 100%;
 }
