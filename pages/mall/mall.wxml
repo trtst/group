@@ -1,53 +1,57 @@
 <view class="container">
     <view class="mall">
         <view class="top" style="padding-top:{{calcData.pt}}px; height:{{calcData.h}}px; line-height:{{calcData.h}}px; ">
-            <view class="avatar" style="padding-top:{{calcData.pt}}px; height:{{calcData.h}}px; line-height:{{calcData.h}}px; "><image src="avatar.jpg" mode="aspectFit"></image></view>
+            <view class="avatar" style="padding-top:{{calcData.pt}}px; height:{{calcData.h}}px; line-height:{{calcData.h}}px; "><image src="/assets/img/avatar.jpg" mode="aspectFit"></image></view>
             <view class="title">社群商城</view>
         </view>
         <scroll-view class="list" scroll-y style="height:{{calcData.mainH}}px">
             <view class="list-main">
                 <view class="item">
-                    <view class="item-l">
-                        <image class="pic" src="avatar.jpg"></image>
-                        <view class="item-title">花园牛奶</view>
-                    </view>
-                    <view class="item-supply">
-                        <view class="price-name">供货价</view>
-                        <view class="price-num">35</view>
-                    </view>
-                    <view class="item-sale">
-                        <view class="price-name">建议价</view>
-                        <view class="price-num">
-                            <text class="less">-</text>
-                            <input class="price-inp" value="45" />
-                            <text class="add">+</text>
+                    <image class="pic" src="/assets/img/avatar.jpg"></image>
+                    <view class="item-info">
+                        <view class="item-title">泰国进口红毛丹</view>
+                        <view class="item-main">
+                            <view class="item-supply">
+                                <view class="price-num">￥35</view>
+                                <view class="price-name">供货价</view>
+                            </view>
+                            <view class="item-sale">
+                                <view class="price-num">
+                                    <text class="less">-</text>
+                                    <input class="price-inp" value="45" />
+                                    <text class="add">+</text>
+                                </view>
+                                <view class="price-name">建议价</view>
+                            </view>
                         </view>
                     </view>
                 </view>
                 <view class="item">
-                    <view class="item-l">
-                        <image class="pic" src="avatar.jpg"></image>
-                        <view class="item-title">花园牛奶</view>
-                    </view>
-                    <view class="item-supply">
-                        <view class="price-name">供货价</view>
-                        <view class="price-num">35</view>
-                    </view>
-                    <view class="item-sale">
-                        <view class="price-name">建议价</view>
-                        <view class="price-num">
-                            <text class="less">-</text>
-                            <input class="price-inp" value="45" />
-                            <text class="add">+</text>
+                    <image class="pic" src="/assets/img/avatar.jpg"></image>
+                    <view class="item-info">
+                        <view class="item-title">泰国进口红毛丹</view>
+                        <view class="item-main">
+                            <view class="item-supply">
+                                <view class="price-num">￥35</view>
+                                <view class="price-name">供货价</view>
+                            </view>
+                            <view class="item-sale">
+                                <view class="price-num">
+                                    <text class="less">-</text>
+                                    <input class="price-inp" value="45" />
+                                    <text class="add">+</text>
+                                </view>
+                                <view class="price-name">建议价</view>
+                            </view>
                         </view>
                     </view>
                 </view>
             </view>
            <view class="no-content">
-                <image src="/assets/img/no-content.png" class="no-content-bg" mode="aspectFit"></image>
+                <image src="/assets/img/empty.png" class="no-content-bg" mode="aspectFit"></image>
                 <text class="no-content-title">暂无产品</text>
             </view>
         </scroll-view>
-        <view class="home"><image src="mall.png"></image></view>
+        <view class="home"><image src="/assets/img/mall.png"></image></view>
     </view>
 </view>

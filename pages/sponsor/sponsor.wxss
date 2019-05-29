@@ -4,8 +4,9 @@ page, .sponsor {
     background: #f5f8fa;
 }
 .head {
+    position: relative;
     margin-bottom: 60rpx;
-    background: #f08200;
+    background: -webkit-linear-gradient(left, rgba(255,169,87,1) 0%,rgba(255,203,87,0.9) 100%);
 }
 .info {
     position: relative;
