@@ -6,7 +6,7 @@ page, .sponsor {
 .head {
     position: relative;
     margin-bottom: 60rpx;
-    background: -webkit-linear-gradient(left, rgba(255,169,87,1) 0%,rgba(255,203,87,0.9) 100%);
+    background: -webkit-linear-gradient(left, #ffa957 0%,rgba(255,203,87,0.9) 100%);
 }
 .info {
     position: relative;

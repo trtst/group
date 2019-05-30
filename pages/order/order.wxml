@@ -1,81 +1,66 @@
 <view class="container">
     <view class="order">
         <view class="top" style="padding-top:{{calcData.pt}}px; height:{{calcData.h}}px; line-height:{{calcData.h}}px; ">
-            <view class="avatar" style="padding-top:{{calcData.pt}}px; height:{{calcData.h}}px; line-height:{{calcData.h}}px; "><image src="avatar.jpg" mode="aspectFit"></image></view>
-            <view class="title">产品库</view>
+            <view class="avatar" style="padding-top:{{calcData.pt}}px; height:{{calcData.h}}px; line-height:{{calcData.h}}px; "><image src="/assets/img/avatar.jpg" mode="aspectFit"></image></view>
+            <view class="title">社区订单</view>
         </view>
         <scroll-view class="list" scroll-y style="height:{{calcData.mainH}}px">
             <view class="list-main">
                 <view class="item">
-                    <view class="item-l">
-                        <image class="pic" src="avatar.jpg"></image>
-                        <view class="item-title">花园牛奶</view>
+                    <view class="item-header">
+                        <view class="item-user"><image class="author" src="/assets/img/avatar.jpg" mode="aspectFit"></image><text class="item-name">怀旧的文学小青年</text></view>
+                        <view class="item-date">下单时间： 2019-05-30</view>
                     </view>
-                    <view class="item-info">
-                        <view class="price-name">供货价/建议价</view>
-                        <view class="price-num">35/45</view>
+                    <view class="item-main">
+                        <image class="img" src="/assets/img/avatar.jpg" mode="aspectFit"></image>
+                        <view class="item-info">
+                            <view class="item-title">墨西哥巨无霸牛油果</view>
+                            <view class="item-desc">x1</view>
+                        </view>
                     </view>
-                    <view class="item-btn">加入</view>
+                    <view class="item-footer">
+                        <view class="item-amount">合计：<text class="red">￥168</text></view>
+                        <view class="item-status">订单状态： <text class="red">未取货</text></view>
+                    </view>
                 </view>
                 <view class="item">
-                    <view class="item-l">
-                        <image class="pic" src="avatar.jpg"></image>
-                        <view class="item-title">花园牛奶</view>
+                    <view class="item-header">
+                        <view class="item-user"><image class="author" src="/assets/img/avatar.jpg" mode="aspectFit"></image><text class="item-name">怀旧的文学小青年</text></view>
+                        <view class="item-date">下单时间： 2019-05-30</view>
                     </view>
-                    <view class="item-info">
-                        <view class="price-name">供货价/建议价</view>
-                        <view class="price-num">35/45</view>
+                    <view class="item-main">
+                        <image class="img" src="/assets/img/avatar.jpg" mode="aspectFit"></image>
+                        <view class="item-info">
+                            <view class="item-title">墨西哥巨无霸牛油果</view>
+                            <view class="item-desc">x1</view>
+                        </view>
                     </view>
-                    <view class="item-btn">加入</view>
+                    <view class="item-footer">
+                        <view class="item-amount">合计：<text class="red">￥168</text></view>
+                        <view class="item-status">订单状态： <text class="red">未取货</text></view>
+                    </view>
                 </view>
                 <view class="item">
-                    <view class="item-l">
-                        <image class="pic" src="avatar.jpg"></image>
-                        <view class="item-title">花园牛奶</view>
+                    <view class="item-header">
+                        <view class="item-user"><image class="author" src="/assets/img/avatar.jpg" mode="aspectFit"></image><text class="item-name">怀旧的文学小青年</text></view>
+                        <view class="item-date">下单时间： 2019-05-30</view>
                     </view>
-                    <view class="item-info">
-                        <view class="price-name">供货价/建议价</view>
-                        <view class="price-num">35/45</view>
+                    <view class="item-main">
+                        <image class="img" src="/assets/img/avatar.jpg" mode="aspectFit"></image>
+                        <view class="item-info">
+                            <view class="item-title">墨西哥巨无霸牛油果</view>
+                            <view class="item-desc">x1</view>
+                        </view>
                     </view>
-                    <view class="item-btn">加入</view>
-                </view>
-                <view class="item">
-                    <view class="item-l">
-                        <image class="pic" src="avatar.jpg"></image>
-                        <view class="item-title">花园牛奶</view>
+                    <view class="item-footer">
+                        <view class="item-amount">合计：<text class="red">￥168</text></view>
+                        <view class="item-status">订单状态： <text class="red">未取货</text></view>
                     </view>
-                    <view class="item-info">
-                        <view class="price-name">供货价/建议价</view>
-                        <view class="price-num">35/45</view>
-                    </view>
-                    <view class="item-btn">加入</view>
-                </view>
-                <view class="item">
-                    <view class="item-l">
-                        <image class="pic" src="avatar.jpg"></image>
-                        <view class="item-title">花园牛奶</view>
-                    </view>
-                    <view class="item-info">
-                        <view class="price-name">供货价/建议价</view>
-                        <view class="price-num">35/45</view>
-                    </view>
-                    <view class="item-btn">加入</view>
-                </view>
-                <view class="item">
-                    <view class="item-l">
-                        <image class="pic" src="avatar.jpg"></image>
-                        <view class="item-title">花园牛奶</view>
-                    </view>
-                    <view class="item-info">
-                        <view class="price-name">供货价/建议价</view>
-                        <view class="price-num">35/45</view>
-                    </view>
-                    <view class="item-btn">加入</view>
                 </view>
             </view>
            <view class="no-content">
-                <image src="/assets/img/no-content.png" class="no-content-bg" mode="aspectFit"></image>
-                <text class="no-content-title">暂无产品</text>
+                <image src="/assets/img/empty.png" class="no-content-bg" mode="aspectFit"></image>
+                <text class="no-content-title">暂无订单</text>
             </view>
         </scroll-view>
     </view>
