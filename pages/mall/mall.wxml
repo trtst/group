@@ -46,6 +46,46 @@
                         </view>
                     </view>
                 </view>
+                <view class="item">
+                    <image class="pic" src="/assets/img/avatar.jpg"></image>
+                    <view class="item-info">
+                        <view class="item-title">泰国进口红毛丹</view>
+                        <view class="item-main">
+                            <view class="item-supply">
+                                <view class="price-num">￥35</view>
+                                <view class="price-name">供货价</view>
+                            </view>
+                            <view class="item-sale">
+                                <view class="price-num">
+                                    <text class="less">-</text>
+                                    <input class="price-inp" value="45" />
+                                    <text class="add">+</text>
+                                </view>
+                                <view class="price-name">建议价</view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="item">
+                    <image class="pic" src="/assets/img/avatar.jpg"></image>
+                    <view class="item-info">
+                        <view class="item-title">泰国进口红毛丹</view>
+                        <view class="item-main">
+                            <view class="item-supply">
+                                <view class="price-num">￥35</view>
+                                <view class="price-name">供货价</view>
+                            </view>
+                            <view class="item-sale">
+                                <view class="price-num">
+                                    <text class="less">-</text>
+                                    <input class="price-inp" value="45" />
+                                    <text class="add">+</text>
+                                </view>
+                                <view class="price-name">建议价</view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
             </view>
            <view class="no-content">
                 <image src="/assets/img/empty.png" class="no-content-bg" mode="aspectFit"></image>

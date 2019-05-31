@@ -1,5 +1,5 @@
 /* pages/mall/mall.wxss */
-.product {
+.mall {
     height: 100%;
 }
 .top {
@@ -31,13 +31,10 @@
    font-size: 34rpx;
 }
 
-.list-main {
-    padding-top: 20rpx;
-}
 .item {
     display: flex;
     padding: 20rpx;
-    margin: 0 0 20rpx 0;
+    margin: 20rpx 0;
     background: #fff;
 }
 .item .pic {

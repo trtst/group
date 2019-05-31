@@ -1,0 +1,155 @@
+.home {
+    height: 100%;
+}
+.top {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: none;
+    z-index: 999;
+    font-size: 40rpx;
+    text-align: center;
+    background: #fff;
+}
+.top .avatar {
+    position: absolute;
+    left: 20rpx;
+    top: 0;
+    width: 60rpx;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.top .avatar image {
+    width: 100%;
+    height: 60rpx;
+    border-radius: 100%;
+}
+.top .title {
+   font-size: 34rpx;
+}
+
+.location {
+    height: 40rpx;
+    line-height: 40rpx;
+    padding: 6rpx 0 14rpx;
+    background: #fff;
+}
+.location image {
+    width: 40rpx;
+    height: 40rpx;
+    margin: 0 10rpx 0 20rpx;
+    vertical-align: top;
+}
+.location .address {
+    display: inline-block;
+    height: 40rpx;
+    font-size: 28rpx;
+}
+
+.item {
+    display: flex;
+    height: 160rpx;
+    padding: 20rpx;
+    margin: 20rpx 0;
+    background: #fff;
+}
+.item .pic {
+    width: 160rpx;
+    height: 160rpx;
+}
+.item .item-info {
+    flex: 1;
+    padding-left: 20rpx;
+    text-align: center;
+}
+.item .item-title {
+    display: -webkit-box;
+    width: 100%;
+    height: 32rpx;
+    font-size: 28rpx;
+    line-height: 32rpx;
+    margin: 10rpx 0 18rpx;
+    text-align: left;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.item-main {
+    display: flex;
+    height: 50rpx;
+    padding-top: 50rpx;
+}
+.item-price {
+    color: #FF6757;
+    font-size: 24rpx;
+}
+.item-price text {
+    font-size: 32rpx;
+}
+.item .price-num {
+    flex: 1;
+    height: 40rpx;
+    line-height: 40rpx;
+    padding: 0 15rpx;
+    text-align: right;
+}
+.amount {
+    display: inline-block;
+    width: 80rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+    text-align: center;
+    font-size: 32rpx;
+    vertical-align: top;
+}
+.less, .add {
+    display: inline-block;
+    width: 40rpx;
+    height: 40rpx;
+    vertical-align: top;
+}
+
+
+.no-content {
+    margin-top: 200rpx;
+    text-align: center;
+}
+.no-content-bg {
+    height: 200rpx;
+    margin: 0 auto;
+}
+.no-content-title {
+    display: block;
+    font-size: 36rpx;
+    font-weight: 500;
+    line-height: 50rpx;
+    color: #535360;
+}
+
+.footer {
+    display: flex;
+    height: 88rpx;
+    line-height: 88rpx;
+    border-top: 2rpx solid #F2F2F2;
+    background: #fff;
+}
+.footer .total {
+    flex: 1;
+    padding-right: 30rpx;
+    font-size: 30rpx;
+    text-align: right;
+}
+.footer .red {
+    font-size: 32rpx;
+    font-weight: bold;
+    color: #FF6757;
+}
+.footer .goPay {
+    width: 200rpx;
+    text-align: center;
+    font-size: 32rpx;
+    color: #fff;
+    background: #FF6757;
+}
