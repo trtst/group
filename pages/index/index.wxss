@@ -30,29 +30,23 @@
    font-size: 34rpx;
 }
 
-.location {
+.carousel {
     height: 40rpx;
     line-height: 40rpx;
-    padding: 6rpx 0 14rpx;
+    padding: 10rpx 20rpx;
+    margin: 10rpx 0;
     background: #fff;
 }
-.location image {
-    width: 40rpx;
+.carousel swiper-item {
     height: 40rpx;
-    margin: 0 10rpx 0 20rpx;
-    vertical-align: top;
-}
-.location .address {
-    display: inline-block;
-    height: 40rpx;
-    font-size: 28rpx;
+    line-height: 40rpx;
+    font-size: 24rpx;
 }
 
 .item {
     display: flex;
     height: 160rpx;
     padding: 20rpx;
-    margin: 20rpx 0;
     background: #fff;
 }
 .item .pic {
@@ -60,9 +54,9 @@
     height: 160rpx;
 }
 .item .item-info {
+    position: relative;
     flex: 1;
     padding-left: 20rpx;
-    text-align: center;
 }
 .item .item-title {
     display: -webkit-box;
@@ -70,23 +64,34 @@
     height: 32rpx;
     font-size: 28rpx;
     line-height: 32rpx;
-    margin: 10rpx 0 18rpx;
+    margin: 0 0 10rpx;
     text-align: left;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+.item .item-desc {
+    font-size: 24rpx;
+    color: #bbb;
+}
+.item-format {
+    font-size: 24rpx;
+    color: #bbb;
+}
 .item-main {
+    position: absolute;
+    bottom: 0;
     display: flex;
-    height: 50rpx;
-    padding-top: 50rpx;
+    width: calc(100% - 20rpx);
+    height: 40rpx;
 }
 .item-price {
+    height:40rpx;
     color: #FF6757;
     font-size: 24rpx;
 }
 .item-price text {
-    font-size: 32rpx;
+    font-size: 36rpx;
 }
 .item .price-num {
     flex: 1;
