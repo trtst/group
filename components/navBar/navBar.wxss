@@ -1,0 +1,75 @@
+.navigation-bar{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 750rpx;
+    background: none;
+    z-index: 999;
+    font-size: 40rpx;
+    text-align: center;
+    transition: 300ms;
+}
+.back {
+    position: absolute;
+    left: 15rpx;
+    top: 0;
+    min-width: 70rpx;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.back view, .back image {
+    width: 100%;
+    height: 100%;
+}
+
+.icon-back {
+    position: relative;
+    display: inline-block;
+}
+.icon-back:before, .icon-back:after {
+    position: absolute;
+    top: auto;
+    left: 5rpx;
+    display: inline-block;
+    content: '';
+    width: 26rpx;
+    height: 4rpx;
+    background: #000;
+}
+.icon-back:before {
+    top: 40%;
+    transform: rotate(-45deg);
+}
+.icon-back:after {
+    top: 58%;
+    transform: rotate(45deg);
+}
+
+.back-home{
+    width: auto;
+    text-align: center;
+    font-size: 30rpx;
+}
+
+.navigation-white {
+    color: #fff;
+    background-color: #000;
+}
+.navigation-white .icon-back:before,.navigation-white .icon-back:after {
+    background-color: #f2f2f2;
+}
+
+.navigation-black {
+    color: #000;
+    background-color: #f2f2f2;
+}
+.navigation-black .icon-back:before,.navigation-black .icon-back:after {
+    background-color: #000;
+}
+
+.navigation-bar-holder{
+    background: transparent;
+    position: relative;
+    z-index: 2;
+}

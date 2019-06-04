@@ -1,7 +1,7 @@
 <view class="container">
     <view class="sponsor">
         <view class="head">
-            <view class="top" style="padding-top:{{calcData.pt}}px; height:{{calcData.h}}px; line-height:{{calcData.h}}px; "></view>
+            <navigationBar id="navigationBar"></navigationBar>
             <view class="info">
                 <view class="info-avatar">
                     <image class="avatar" src="/assets/img/avatar.jpg"></image>
@@ -77,6 +77,7 @@
                 </view>  
             </view>
         </view>
+        <footer id="footer"></footer>
     </view>
 </view>
 
