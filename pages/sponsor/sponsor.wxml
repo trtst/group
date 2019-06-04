@@ -7,33 +7,74 @@
                     <image class="avatar" src="/assets/img/avatar.jpg"></image>
                 </view>
                 <view class="info-name">怀旧的文学小青年</view>
-                <view class="info-desc">这个人很懒，什么都没有留下</view>
+                <view class="info-desc">身份：团长 颜值：250</view>
+            </view>
+        </view>
+        <view class="amount">
+            <view class="amount-item">
+                <view class="amount-num">115</view>
+                商品数
+            </view>
+            <view class="amount-item">
+                <view class="amount-num">115</view>
+                成交订单
+            </view>
+            <view class="amount-item">
+                <view class="amount-num">115</view>
+                用户数
             </view>
         </view>
         <view class="list">
-            <view class="item">
-                <view class="item-ico">
-                    <image src="/assets/img/product.png"></image>
+            <view class="list-title">我的服务</view>
+            <view class="list-main">
+                <view class="item">
+                    <view class="item-ico">
+                        <image src="/assets/img/product.png"></image>
+                    </view>
+                    <view class="item-name">产品库管理</view>
                 </view>
-                <view class="item-name">产品库</view>
-            </view>
-            <view class="item">
-                <view class="item-ico">
-                    <image src="/assets/img/mall.png"></image>
+                <view class="item">
+                    <view class="item-ico">
+                        <image src="/assets/img/mall.png"></image>
+                    </view>
+                    <view class="item-name">社群商城</view>
                 </view>
-                <view class="item-name">社群商城</view>
-            </view>
-            <view class="item">
-                <view class="item-ico">
-                    <image src="/assets/img/order.png"></image>
+                <view class="item">
+                    <view class="item-ico">
+                        <image src="/assets/img/order.png"></image>
+                    </view>
+                    <view class="item-name">社群订单</view>
                 </view>
-                <view class="item-name">社群订单</view>
-            </view>
-            <view class="item">
-                <view class="item-ico">
-                    <image src="/assets/img/report.png"></image>
+                <view class="item">
+                    <view class="item-ico">
+                        <image src="/assets/img/coupon.png"></image>
+                    </view>
+                    <view class="item-name">优惠券</view>
                 </view>
-                <view class="item-name">我的报表</view>
+                <view class="item">
+                    <view class="item-ico">
+                        <image src="/assets/img/report.png"></image>
+                    </view>
+                    <view class="item-name">我的报表</view>
+                </view>            
+                <view class="item">
+                    <view class="item-ico">
+                        <image src="/assets/img/service.png"></image>
+                    </view>
+                    <view class="item-name">我的客服</view>
+                </view>
+                <view class="item">
+                    <view class="item-ico">
+                        <image src="/assets/img/address.png"></image>
+                    </view>
+                    <view class="item-name">提货地址</view>
+                </view>
+                <view class="item">
+                    <view class="item-ico">
+                        <image src="/assets/img/bulletin.png"></image>
+                    </view>
+                    <view class="item-name">商城公告</view>
+                </view>  
             </view>
         </view>
     </view>

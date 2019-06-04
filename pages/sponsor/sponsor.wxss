@@ -6,55 +6,99 @@ page, .sponsor {
 .head {
     position: relative;
     margin-bottom: 60rpx;
+}
+.head::after {
+    content: '';
+    width: 140%;
+    height: 100%;
+    position: absolute;
+    left: -20%;
+    top: 0;
+    border-radius: 0 0 30% 30%;
     background: -webkit-linear-gradient(left, #ffa957 0%,rgba(255,203,87,0.9) 100%);
 }
+
 .info {
     position: relative;
-    bottom: -60rpx;
-    margin: 60rpx 30rpx 0;
+    z-index: 1;
+    bottom: -40rpx;
+    margin: 40rpx 30rpx;
     text-align: center;
     border-radius: 20rpx;
     font-size: 0;
     background: #fff;
-    box-shadow:0px 4rpx 20rpx -2rpx rgba(211,218,230,1);
+    box-shadow:0px 2rpx 10rpx -2rpx rgba(211,218,230,1);
 }
 .avatar {
-    width: 160rpx;
-    height: 160rpx;
+    width: 120rpx;
+    height: 120rpx;
     border: 6rpx solid #fff;
-    margin-top: -80rpx;
+    margin-top: -60rpx;
     border-radius: 100%;
 }
 .info-name {
-    margin: 40rpx auto 30rpx;
-    line-height: 48rpx;
-    font-size: 48rpx;
+    margin: 20rpx auto;
+    line-height: 40rpx;
+    font-size: 40rpx;
+    color: #535360;
 }
 .info-desc {
-    padding-bottom: 50rpx;
-    font-size: 30rpx;
-    color: #879193;
+    padding-bottom: 40rpx;
+    font-size: 28rpx;
+    color: #6B6B7D;
+}
+
+.amount {
+    display: flex;
+    margin: 0 30rpx 20rpx;
+    padding: 40rpx 30rpx;
+    border-radius: 20rpx;
+    background: #fff;
+    box-shadow:0px 2rpx 10rpx -2rpx rgba(211,218,230,1);
+}
+.amount-item {
+    flex: 1;
+    font-size: 24rpx;
+    text-align: center;
+    border-right: 2rpx solid #f2f2f2;
+}
+.amount-item:last-child {
+    border: 0;
+}
+.amount-num {
+    font-size: 28rpx;
+    line-height: 42rpx;
+    padding-bottom: 10rpx;
+    font-weight: bold;
 }
 
 .list {
-    margin: 0 30rpx 0 0 ;
-    padding: 50rpx 0;
-    font-size: 0; 
+    padding-bottom: 20rpx;
+    margin: 0 30rpx;
+    border-radius: 20rpx;
+    font-size: 0;
+    background: #fff;
+    box-shadow:0px 2rpx 10rpx -2rpx rgba(211,218,230,1);
 }
+
 .item {
     display: inline-block;
-    width: calc( 50% - 30rpx);
-    padding: 50rpx 0;
-    margin: 0 0 30rpx 30rpx;
+    width: 25%;
+    padding: 20rpx 0;
     text-align: center;
-    border-radius: 20rpx;
     background: #fff;
 }
+.list-title {
+    padding: 30rpx;
+    line-height: 32rpx;
+    font-size: 32rpx;
+    color: #535360;
+}
 .item image {
-    width: 120rpx;
-    height: 120rpx;
+    width: 50rpx;
+    height: 50rpx;
 }
 .item-name {
-    padding: 20rpx 0;
-    font-size: 36rpx;
+    padding: 10rpx 0 20rpx;
+    font-size: 24rpx;
 }
