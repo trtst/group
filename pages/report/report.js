@@ -1,4 +1,4 @@
-// components/footer/footer.js
+// pages/report/report.js
 Page({
 
     /**

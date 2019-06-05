@@ -7,8 +7,8 @@
         "pages/product/product",
         "pages/home/home",
         "components/navBar/navBar",
-        "components/footer/footer",
-        "pages/mallUser/mallUser"
+        "pages/mallUser/mallUser",
+        "pages/report/report"
     ],
     "window": {
         "backgroundTextStyle": "light",

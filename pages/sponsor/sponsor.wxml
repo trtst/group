@@ -63,7 +63,7 @@
                     </view>
                     <view class="item-name">我的客服</view>
                 </view>
-                <view class="item">
+                <view class="item" bindtap="getAddress">
                     <view class="item-ico">
                         <image src="/assets/img/address.png"></image>
                     </view>
