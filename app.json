@@ -1,12 +1,11 @@
 {
     "pages": [
-        "pages/sponsor/sponsor",
         "pages/index/index",
+        "pages/sponsor/sponsor",
         "pages/order/order",
         "pages/mall/mall",
         "pages/product/product",
         "pages/home/home",
-        "components/navBar/navBar",
         "pages/mallUser/mallUser",
         "pages/report/report"
     ],
