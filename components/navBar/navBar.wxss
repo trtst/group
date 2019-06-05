@@ -18,9 +18,14 @@
     justify-content: flex-start;
     align-items: center;
 }
-.back view, .back image {
+.back view {
     width: 100%;
     height: 100%;
+}
+.back image {
+    width: 60%;
+    height: 60%;
+    margin-top: 20%;
 }
 
 .icon-back {
@@ -57,12 +62,12 @@
     background-color: #000;
 }
 .navigation-white .icon-back:before,.navigation-white .icon-back:after {
-    background-color: #f2f2f2;
+    background-color: #fff;
 }
 
 .navigation-black {
     color: #000;
-    background-color: #f2f2f2;
+    background-color: #fff;
 }
 .navigation-black .icon-back:before,.navigation-black .icon-back:after {
     background-color: #000;

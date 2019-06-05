@@ -2,38 +2,25 @@
 .product {
     height: 100%;
 }
-.top {
-    position: relative;
-    left: 0;
-    top: 0;
-    width: 750rpx;
-    background: none;
-    z-index: 999;
-    font-size: 40rpx;
-    text-align: center;
-    background: #fff;
-}
-.top .avatar {
-    position: absolute;
-    left: 15rpx;
-    top: 0;
-    width: 60rpx;
+
+.tab {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-.top .avatar image {
     width: 100%;
-    height: 60rpx;
-    border-radius: 100%;
+    font-size: 0;
 }
-.top .title {
-   font-size: 34rpx;
+.tab .tab-item {
+    flex: 1;
+    line-height: 92rpx;
+    font-size: 32rpx;
+    text-align: center;
+    border-bottom: 8rpx solid #F7F7F7;
+}
+.tab .tab-item.active {
+    font-weight: bold;
+    color: #FF5e46;
+    border-bottom: 8rpx solid #FF5e46;
 }
 
-.list-main {
-    padding-top: 20rpx;
-}
 .item {
     padding: 20rpx 0;
     margin: 0 0 20rpx 0;
@@ -56,7 +43,7 @@
 .item-header .author {
     width: 50rpx;
     height: 50rpx;
-    margin-right: 10rpx;
+    margin: 0 20rpx 0 0;
     border-radius: 100%;
     vertical-align: top;
 }
@@ -64,7 +51,7 @@
     font-size: 24rpx;
     line-height: 50rpx;
     text-align: right;
-    color: #C8C8C8;
+    color: #7d7d7d;
 }
 
 .item-main {
@@ -72,8 +59,8 @@
     padding: 20rpx;
 }
 .item-main .img {
-    width: 140rpx;
-    height: 140rpx;
+    width: 120rpx;
+    height: 120rpx;
 }
 .item-main .item-info {
     flex: 1;
@@ -93,25 +80,52 @@
 }
 .item-main .item-desc {
     font-size: 24rpx;
-    color: #C8C8C8;
+    color: #7d7d7d;
+}
+.item-price {
+    font-size: 0;
+    text-align: right;
+}
+.item-price .price {
+    font-size: 28rpx;
+}
+.item-price .add {
+    font-size:24rpx;
+    color:#7d7d7d;
+}
+
+.item-amount{
+    padding: 20rpx;
+    text-align: right;
+    font-size: 28rpx;
+}
+.item-amount .red{
+    color: #FF5e46;
+    font-size: 32rpx;
 }
 
 .item-footer {
-    display: flex;
-    padding: 0 20rpx;
+    padding: 20rpx 20rpx 0;
     border-top: 2rpx solid #F2F2F2;
-}
-.item-amount, .item-status {
-    flex: 1;
-    padding-top: 20rpx;
-    font-size: 28rpx;
-}
-.item-footer .item-status {
     text-align: right;
 }
-.item-footer .red {
-    font-weight: bold;
-    color: #FF6757;
+.item-footer .item-btn {
+    display: inline-block;
+    width: 120rpx;
+    height: 24rpx;
+    padding: 10rpx;
+    margin-left: 20rpx;
+    line-height: 24rpx;
+    border-radius: 28rpx;
+    font-size: 24rpx;
+    text-align: center;
+    border: 2rpx solid #9d9d9d;
+    color: #7d7d7d;
+}
+.item-footer .pay {
+    border: 2rpx solid #FF5e46;
+    color: #fff;
+    background: #FF5e46;
 }
 
 .no-content {

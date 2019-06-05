@@ -5,10 +5,10 @@
         "pages/order/order",
         "pages/mall/mall",
         "pages/product/product",
-        "pages/logs/logs",
         "pages/home/home",
         "components/navBar/navBar",
-        "components/footer/footer"
+        "components/footer/footer",
+        "pages/mallUser/mallUser"
     ],
     "window": {
         "backgroundTextStyle": "light",

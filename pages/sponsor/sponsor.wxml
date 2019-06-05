@@ -27,36 +27,36 @@
         <view class="list">
             <view class="list-title">我的服务</view>
             <view class="list-main">
-                <view class="item">
+                <navigator url="/pages/product/product?jump=index" open-type="navigate" class="item">
                     <view class="item-ico">
                         <image src="/assets/img/product.png"></image>
                     </view>
                     <view class="item-name">产品库管理</view>
-                </view>
-                <view class="item">
+                </navigator>
+                <navigator url="/pages/mall/mall?jump=index" open-type="navigate" class="item">
                     <view class="item-ico">
                         <image src="/assets/img/mall.png"></image>
                     </view>
                     <view class="item-name">社群商城</view>
-                </view>
-                <view class="item">
+                </navigator>
+                <navigator url="/pages/order/order?jump=index" open-type="navigate" class="item">
                     <view class="item-ico">
                         <image src="/assets/img/order.png"></image>
                     </view>
                     <view class="item-name">社群订单</view>
-                </view>
-                <view class="item">
+                </navigator>
+                <navigator url="/pages/coupon/coupon?jump=index" open-type="navigate" class="item">
                     <view class="item-ico">
                         <image src="/assets/img/coupon.png"></image>
                     </view>
                     <view class="item-name">优惠券</view>
-                </view>
-                <view class="item">
+                </navigator>
+                <navigator url="/pages/report/report?jump=index" open-type="navigate" class="item">
                     <view class="item-ico">
                         <image src="/assets/img/report.png"></image>
                     </view>
                     <view class="item-name">我的报表</view>
-                </view>            
+                </navigator>            
                 <view class="item">
                     <view class="item-ico">
                         <image src="/assets/img/service.png"></image>
@@ -77,7 +77,6 @@
                 </view>  
             </view>
         </view>
-        <footer id="footer"></footer>
     </view>
 </view>
 

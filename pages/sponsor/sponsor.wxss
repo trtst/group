@@ -15,7 +15,7 @@ page, .sponsor {
     left: -20%;
     top: 0;
     border-radius: 0 0 30% 30%;
-    background: -webkit-linear-gradient(left, #ffa957 0%,rgba(255,203,87,0.9) 100%);
+    background: -webkit-linear-gradient(60deg, #FF7D09 0%,#FDCA57 100%);
 }
 
 .info {

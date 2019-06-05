@@ -1,9 +1,6 @@
 <view class="container">
     <view class="mall">
-        <view class="top" style="padding-top:{{calcData.pt}}px; height:{{calcData.h}}px; line-height:{{calcData.h}}px; ">
-            <view class="avatar" style="padding-top:{{calcData.pt}}px; height:{{calcData.h}}px; line-height:{{calcData.h}}px; "><image src="/assets/img/avatar.jpg" mode="aspectFit"></image></view>
-            <view class="title">社群商城</view>
-        </view>
+        <navigationBar id="navigationBar" title="{{title}}" color="{{color}}" back="{{back}}"></navigationBar>
         <scroll-view class="list" scroll-y style="height:{{calcData.mainH}}px">
             <view class="list-main">
                 <view class="item">
@@ -17,9 +14,9 @@
                             </view>
                             <view class="item-sale">
                                 <view class="price-num">
-                                    <text class="less">-</text>
+                                    <image src="/assets/img/less.png" mode="aspectFit" class="less"></image>
                                     <input class="price-inp" value="45" />
-                                    <text class="add">+</text>
+                                    <image src="/assets/img/add.png" mode="aspectFit" class="add"></image>
                                 </view>
                                 <view class="price-name">建议价</view>
                             </view>
@@ -37,9 +34,9 @@
                             </view>
                             <view class="item-sale">
                                 <view class="price-num">
-                                    <text class="less">-</text>
+                                    <image src="/assets/img/less.png" mode="aspectFit" class="less"></image>
                                     <input class="price-inp" value="45" />
-                                    <text class="add">+</text>
+                                    <image src="/assets/img/add.png" mode="aspectFit" class="add"></image>
                                 </view>
                                 <view class="price-name">建议价</view>
                             </view>
@@ -57,9 +54,9 @@
                             </view>
                             <view class="item-sale">
                                 <view class="price-num">
-                                    <text class="less">-</text>
+                                    <image src="/assets/img/less.png" mode="aspectFit" class="less"></image>
                                     <input class="price-inp" value="45" />
-                                    <text class="add">+</text>
+                                    <image src="/assets/img/add.png" mode="aspectFit" class="add"></image>
                                 </view>
                                 <view class="price-name">建议价</view>
                             </view>
@@ -77,9 +74,9 @@
                             </view>
                             <view class="item-sale">
                                 <view class="price-num">
-                                    <text class="less">-</text>
+                                    <image src="/assets/img/less.png" mode="aspectFit" class="less"></image>
                                     <input class="price-inp" value="45" />
-                                    <text class="add">+</text>
+                                    <image src="/assets/img/add.png" mode="aspectFit" class="add"></image>
                                 </view>
                                 <view class="price-name">建议价</view>
                             </view>
@@ -92,6 +89,5 @@
                 <text class="no-content-title">暂无产品</text>
             </view>
         </scroll-view>
-        <view class="home"><image src="/assets/img/mall.png"></image></view>
     </view>
 </view>

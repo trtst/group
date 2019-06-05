@@ -1,11 +1,8 @@
 <view class="container">
     <view class="home">
-        <view class="top" style="padding-top:{{calcData.pt}}px; height:{{calcData.h}}px; line-height:{{calcData.h}}px; ">
-            <view class="avatar" style="padding-top:{{calcData.pt}}px; height:{{calcData.h}}px; line-height:{{calcData.h}}px; "><image src="/assets/img/avatar.jpg" mode="aspectFit"></image></view>
-            <view class="title">社群商城首页</view>
-        </view>
+        <navigationBar id="navigationBar" title="{{title}}" color="{{color}}" back="{{back}}"></navigationBar>
         <view class="location">
-            <image src="/assets/img/location.png" mode="aspectFit"></image>
+            <image src="/assets/img/address.png" mode="aspectFit"></image>
             <text class="address">北京市朝阳区国贸店</text>
         </view>
         <scroll-view class="list" scroll-y style="height:{{maxH}}px">

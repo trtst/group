@@ -1,10 +1,9 @@
-// pages/mall/mall.js
 const app = getApp();
 
 Page({
     data: {
         calcData: app.globalData.calcData,
-        title: '商城价格管理',
+        title: '商城用户列表',
         color: 'black',
         back: 'back',
     },

@@ -1,6 +1,6 @@
 <view class="navigation-bar navigation-{{color}}" style="padding-top:{{paddingTop}}px; height:{{height}}px; line-height:{{height}}px; position:{{fixed&&'fixed'}};">
 	<view class="back" wx:if="{{back}}" style="padding-top:{{paddingTop}}px;height:{{height}}px;line-height:{{height}}px;" bind:tap="navigateBack">
-		<view class="icon-home" wx:if="{{back == 'home'}}"><image src="backhome.png" mode="aspectFit"></image></view>
+		<view class="icon-home" wx:if="{{back == 'home'}}"><image src="/assets/img/backhome.png" mode="aspectFit"></image></view>
         <view class="icon-back" wx:else="{{back == 'back'}}"></view>
 	</view>
 	<view class="title">{{title!=''?title:''}}</view>

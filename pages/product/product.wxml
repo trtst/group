@@ -1,9 +1,6 @@
 <view class="container">
     <view class="product">
-        <view class="top" style="padding-top:{{calcData.pt}}px; height:{{calcData.h}}px; line-height:{{calcData.h}}px; ">
-            <view class="avatar" style="padding-top:{{calcData.pt}}px; height:{{calcData.h}}px; line-height:{{calcData.h}}px; "><image src="/assets/img/avatar.jpg" mode="aspectFit"></image></view>
-            <view class="title">产品库</view>
-        </view>
+        <navigationBar id="navigationBar" title="{{title}}" color="{{color}}" back="{{back}}"></navigationBar>
         <scroll-view class="list" scroll-y style="height:{{calcData.mainH}}px">
             <view class="list-main">
                 <view class="item">
