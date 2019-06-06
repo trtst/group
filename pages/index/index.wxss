@@ -34,35 +34,60 @@
     padding: 0 20rpx;
 }
 .item {
+    font-size: 0;
     background: #fff;
 }
 .item .pic {
     width: 100%;
-    height: 380rpx;
+    height: 360rpx;
 }
 .item .item-title {
     font-size: 36rpx;
+    line-height: 36rpx;
+    padding-bottom: 12rpx;
 }
 .item-desc {
     font-size: 28rpx;
     color:#7d7d7d;
 }
 .item-main {
+    padding: 20rpx;
+}
+.item-bottom {
     display: flex;
+    padding-top: 20rpx;
 }
-
-.less, .add {
-    display: inline-block;
-    width: 40rpx;
-    height: 40rpx;
-    margin-top: 15rpx;
-    vertical-align: top;
+.item-tips {
+    padding: 2rpx 10rpx 0;
+    margin-top: 8rpx;
+    font-size: 24rpx;
+    line-height: 34rpx;
+    vertical-align: middle;
+    color: #fff;
+    background: #E91626;
 }
-.price-inp {
+.item-price {
+    flex: 1;
+    font-size: 32rpx;
+    vertical-align: bottom;
+}
+.item-price text {
     display: inline-block;
-    width: 50%;
-    height: 70rpx;
-    vertical-align: top;
+    line-height: 50rpx;
+    padding-left: 10rpx;
+}
+.current {
+    font-size: 42rpx;
+    color: #ffa400;
+}
+.del {
+    font-size: 28rpx;
+    color: #7d7d7d;
+    text-decoration: line-through;
+}
+.add {
+    width: 50rpx;
+    height: 50rpx;
 }
 
 .no-content {
