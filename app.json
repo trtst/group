@@ -9,6 +9,30 @@
         "pages/mallUser/mallUser",
         "pages/report/report"
     ],
+    "tabBar": {
+        "color": "#333",
+        "selectedColor": "#ffa400",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "assets/img/index.png",
+                "selectedIconPath": "assets/img/index_hover.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "assets/img/shopping.png",
+                "selectedIconPath": "assets/img/shopping_hover.png",
+                "text": "购物车"
+            },
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "assets/img/center.png",
+                "selectedIconPath": "assets/img/center_hover.png",
+                "text": "个人中心"
+            }
+        ]
+    },
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#fff",

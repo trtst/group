@@ -3,7 +3,7 @@ const app = getApp();
 Page({
     data: {
         calcData: app.globalData.calcData,
-        maxH: app.globalData.calcData.mainH - 400 / 2,
+        maxH: app.globalData.calcData.mainH,
         title: '私蜜',
         color: 'black',
         back: 'back',

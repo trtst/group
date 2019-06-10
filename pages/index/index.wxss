@@ -34,6 +34,7 @@
     padding: 0 20rpx;
 }
 .item {
+    margin-top: 20rpx;
     font-size: 0;
     background: #fff;
 }
@@ -55,34 +56,38 @@
 }
 .item-bottom {
     display: flex;
+    font-size: 0;
     padding-top: 20rpx;
 }
 .item-tips {
-    padding: 2rpx 10rpx 0;
-    margin-top: 8rpx;
+    padding: 8rpx 10rpx 0;
+    margin-top: 5rpx;
     font-size: 24rpx;
-    line-height: 34rpx;
-    vertical-align: middle;
+    line-height: 30rpx;
+    vertical-align: top;
     color: #fff;
     background: #E91626;
+    transform: scale(.8);
 }
 .item-price {
     flex: 1;
-    font-size: 32rpx;
-    vertical-align: bottom;
+    font-size: 0;
+    vertical-align: top;
 }
 .item-price text {
     display: inline-block;
     line-height: 50rpx;
-    padding-left: 10rpx;
+    padding-right: 10rpx;
 }
-.current {
+.item-price text.current {
     font-size: 42rpx;
     color: #ffa400;
+    vertical-align: bottom;
 }
-.del {
+.item-price text.del {
     font-size: 28rpx;
-    color: #7d7d7d;
+    line-height: 40rpx;
+    color: #999;
     text-decoration: line-through;
 }
 .add {
