@@ -1,0 +1,32 @@
+<!--pages/shopping/shopping.wxml-->
+<view class="container">
+    <view class="index">
+        <navigationBar id="navigationBar" title="{{title}}" color="{{color}}" back="{{back}}"></navigationBar>
+        <scroll-view class="list" scroll-y style="height:{{maxH}}px">
+            <view class="list-main">
+                <view class="item">
+                    <view class="goods">
+                        <text class="check"></text>
+                        <image class="pic" src="/assets/img/avatar.jpg"></image>
+                        <view class="item-info">
+                            <view class="item-title">泰国进口红毛丹</view>
+                            <view class="item-main">
+                                <view class="item-price">￥<text>123</text></view>
+                                <view class="price-num">
+                                    <image src="/assets/img/less.png" mode="aspectFit" class="less"></image>
+                                    <text class="amount">1</text>
+                                    <image src="/assets/img/add.png" mode="aspectFit" class="add"></image>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+           <view class="no-content">
+                <image src="/assets/img/empty.png" class="no-content-bg" mode="aspectFit"></image>
+                <text class="no-content-title">购物车为空</text>
+            </view>
+        </scroll-view>
+    </view>
+</view>
+
