@@ -30,7 +30,7 @@ App({
         }
 
         self.globalData.calcData = {
-            mainH: systemInfo.screenHeight - h - pt,
+            mainH: systemInfo.windowHeight - h - pt,
             h: h,
             pt: pt
         }

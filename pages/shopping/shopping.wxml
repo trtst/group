@@ -1,32 +1,76 @@
 <!--pages/shopping/shopping.wxml-->
 <view class="container">
-    <view class="index">
+    <view class="shopping">
         <navigationBar id="navigationBar" title="{{title}}" color="{{color}}" back="{{back}}"></navigationBar>
         <scroll-view class="list" scroll-y style="height:{{maxH}}px">
             <view class="list-main">
+
                 <view class="item">
-                    <view class="goods">
-                        <text class="check"></text>
-                        <image class="pic" src="/assets/img/avatar.jpg"></image>
-                        <view class="item-info">
-                            <view class="item-title">泰国进口红毛丹</view>
-                            <view class="item-main">
-                                <view class="item-price">￥<text>123</text></view>
-                                <view class="price-num">
-                                    <image src="/assets/img/less.png" mode="aspectFit" class="less"></image>
-                                    <text class="amount">1</text>
-                                    <image src="/assets/img/add.png" mode="aspectFit" class="add"></image>
+                    <view class="goods" bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE">
+                        <view class="goods-main">
+                            <view class="check">
+                                <image class="icon active" src="/assets/img/check.png"></image>
+                                <image class="icon_active" src="/assets/img/check_active.png"></image>
+                            </view>
+                            <image class="pic" src="/assets/img/avatar.jpg"></image>
+                            <view class="item-info">
+                                <view class="item-title">泰国进口红毛丹</view>
+                                <view class="item-main">
+                                    <view class="item-price">￥<text>123</text></view>
+                                    <view class="price-num">
+                                        <image src="/assets/img/less.png" mode="aspectFit" class="less"></image>
+                                        <input class="amount" value="1"></input>
+                                        <image src="/assets/img/add.png" mode="aspectFit" class="add"></image>
+                                    </view>
                                 </view>
                             </view>
                         </view>
+                        <view class="del" catchtap="delItem">删除</view>
                     </view>
                 </view>
+
+                <view class="item">
+                    <view class="goods" bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE">
+                        <view class="goods-main">
+                            <view class="check">
+                                <image class="icon active" src="/assets/img/check.png"></image>
+                                <image class="icon_active" src="/assets/img/check_active.png"></image>
+                            </view>
+                            <image class="pic" src="/assets/img/avatar.jpg"></image>
+                            <view class="item-info">
+                                <view class="item-title">泰国进口红毛丹</view>
+                                <view class="item-main">
+                                    <view class="item-price">￥<text>123</text></view>
+                                    <view class="price-num">
+                                        <image src="/assets/img/less.png" mode="aspectFit" class="less"></image>
+                                        <input class="amount" value="1"></input>
+                                        <image src="/assets/img/add.png" mode="aspectFit" class="add"></image>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="del">删除</view>
+                    </view>
+                </view>
+
             </view>
-           <view class="no-content">
+            
+           <!-- <view class="no-content">
                 <image src="/assets/img/empty.png" class="no-content-bg" mode="aspectFit"></image>
                 <text class="no-content-title">购物车为空</text>
-            </view>
+            </view> -->
         </scroll-view>
+        <view class="footer">
+            <view class="check-box">
+                <view class="check">
+                    <image class="icon active" src="/assets/img/check.png"></image>
+                    <image class="icon_active" src="/assets/img/check_active.png"></image>
+                </view>
+                <text>全选</text>
+            </view>
+            <view class="total">共<text>1</text>件，总计:<text>￥1260.00</text></view>
+            <view class="goOrder">立即下单</view>
+        </view>
     </view>
 </view>
 
