@@ -1,0 +1,49 @@
+/* pages/orderInfo/orderInfo.wxss */
+.orderInfo {
+    height: 100%;
+}
+
+.address {
+    display: flex;
+    padding: 30rpx 20rpx;
+    margin: 20rpx;
+    border-radius: 20rpx;
+    background: #fff;
+}
+.addr-icon {
+    width: 40rpx;
+    height: 40rpx;
+    margin-top: 34rpx;
+}
+.no-addr {
+    flex: 1;
+    padding: 0 20rpx;
+    font-size: 32rpx;
+    color: #666;
+    line-height: 108rpx;
+}
+.addr-info {
+    flex: 1;
+    padding: 0 30rpx;
+    font-size: 0rpx;
+}
+.addr-name, .addr-des {
+    line-height: 40rpx;
+    padding: 6rpx 0;
+    font-size: 28rpx;
+}
+.addr-name .name {
+    font-size: 34rpx;
+}
+.addr-name .tel {
+    display: inline-block;
+    padding-left: 20rpx;
+    color: #999;
+}
+.addr-arrow {
+    width: 40rpx;
+    height: 40rpx;
+    margin-top: 34rpx;
+    opacity: .5;
+    transform: rotate(180deg);
+}

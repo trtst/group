@@ -8,7 +8,8 @@
         "pages/home/home",
         "pages/mallUser/mallUser",
         "pages/report/report",
-        "pages/shopping/shopping"
+        "pages/shopping/shopping",
+        "pages/orderInfo/orderInfo"
     ],
     "tabBar": {
         "color": "#333",
