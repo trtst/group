@@ -3,6 +3,10 @@
     height: 100%;
 }
 
+.red {
+    color: #FF6757;
+}
+
 .address {
     display: flex;
     padding: 30rpx 20rpx;
@@ -10,19 +14,19 @@
     border-radius: 20rpx;
     background: #fff;
 }
-.addr-icon {
+.address .addr-icon {
     width: 40rpx;
     height: 40rpx;
     margin-top: 34rpx;
 }
-.no-addr {
+.address .no-addr {
     flex: 1;
     padding: 0 20rpx;
     font-size: 32rpx;
     color: #666;
     line-height: 108rpx;
 }
-.addr-info {
+.address .addr-info {
     flex: 1;
     padding: 0 30rpx;
     font-size: 0rpx;
@@ -32,18 +36,141 @@
     padding: 6rpx 0;
     font-size: 28rpx;
 }
-.addr-name .name {
+.address .addr-name .name {
     font-size: 34rpx;
 }
-.addr-name .tel {
+.address .addr-name .tel {
     display: inline-block;
     padding-left: 20rpx;
     color: #999;
 }
-.addr-arrow {
+.address .addr-arrow {
     width: 40rpx;
     height: 40rpx;
     margin-top: 34rpx;
     opacity: .5;
     transform: rotate(180deg);
+}
+
+.goods {
+    display: flex;
+    padding:30rpx 20rpx;
+    margin:20rpx;
+    font-size: 0;
+    border-radius:20rpx;
+    background:#fff;
+}
+.goods-item {
+    position: relative;
+    width: 100rpx;
+    height: 100rpx;
+    font-size: 0;
+    margin-right: 30rpx;
+    vertical-align: top;
+}
+.goods-item image {
+    width: 100%;
+    height: 100%;
+    border-radius: 20rpx;
+}
+.goods-item text {
+    position: absolute;
+    top: -10rpx;
+    right: -15rpx;
+    height: 30rpx;
+    padding: 0 10rpx;
+    line-height: 30rpx;
+    text-align: center;
+    font-size: 24rpx;
+    color: #fff;
+    background: #FF6757;
+    border-radius: 100%;
+}
+
+.goods-arrow {
+    flex: 1;
+    line-height: 100rpx;
+    font-size: 28rpx;
+    text-align: right;
+    color: #999;
+}
+.goods-arrow .addr-arrow {
+    width: 40rpx;
+    height: 40rpx;
+    margin-top: 30rpx;
+    opacity: .5;
+    vertical-align: top;
+    transform: rotate(180deg);
+}
+
+.base-info {
+    padding:10rpx 20rpx;
+    margin:20rpx;
+    border-radius:20rpx;
+    background:#fff;
+}
+.base-box {
+    display: flex;
+    padding: 20rpx 0;
+    font-size: 0;
+    border-bottom: 2rpx solid #f8f8f8;
+}
+.base-box:last-child {
+    border: 0;
+}
+.base-title, .base-des {
+    font-size: 28rpx;
+    line-height: 40rpx;
+}
+.base-des {
+    flex: 1;
+    text-align: right;
+    font-size: 28rpx;
+}
+.base-arrow {
+    width: 30rpx;
+    height: 30rpx;
+    margin-top: 6rpx;
+    opacity: .3;
+    transform: rotate(180deg);
+}
+
+.price-panel {
+    padding:10rpx 20rpx;
+    margin:20rpx;
+    font-size: 0;
+    border-radius:20rpx;
+    background:#fff;
+}
+.price-panel .noffer {
+    color:#999;
+}
+.price-total {
+    padding: 10rpx 0;
+    text-align: right;
+    font-size: 32rpx;
+    line-height: 80rpx;
+}
+
+.footer {
+    display: flex;
+    height: 100rpx;
+    line-height: 100rpx;
+    font-size: 0;
+    background: #fff;
+}
+.total {
+    flex: 1;
+    padding: 0 30rpx;
+    font-size: 32rpx;
+}
+.total text {
+    font-size: 40rpx;
+}
+.sub {
+    width: 200rpx;
+    text-align: center;
+    font-size: 30rpx;
+    color: #fff;
+    background: #FF6757;
 }
