@@ -9,7 +9,8 @@
         "pages/mallUser/mallUser",
         "pages/report/report",
         "pages/shopping/shopping",
-        "pages/orderInfo/orderInfo"
+        "pages/orderInfo/orderInfo",
+        "pages/orderDetail/orderDetail"
     ],
     "tabBar": {
         "color": "#333",
