@@ -1,0 +1,46 @@
+<!--pages/coupon/coupon.wxml-->
+<view class="container">
+    <view class="coupon">
+        <navigationBar id="navigationBar" title="{{title}}" color="{{color}}" back="{{back}}"></navigationBar>
+        <scroll-view class="main" scroll-y style="height:{{maxH}}px">
+            <view class="bindCoupon">
+                <input value="" placeholder="请输入要绑定的优惠券"></input>
+                <button>绑定</button>
+            </view>
+            <view class="item">
+                <view class="item-main">
+                    <view class="item-price">
+                        <view class="price">￥<text>98.00</text></view>
+                        <view class="type">通用券</view>
+                    </view>
+                    <view class="item-info">
+                        <view class="item-title">5元开团兑换券</view>
+                        <view class="item-limit">满80元可用</view>
+                        <view class="item-date">2019.12.12 - 2019.12.22</view>
+                    </view>
+                </view>
+                <view class="item-footer">
+                    <view class="item-desc">1、撒旦法撒旦法岁的法斯蒂芬</view>
+                    <view class="item-desc">2、各回各家发过火和豆腐干地方</view>
+                </view>
+            </view>
+            <view class="item used">
+                <view class="item-main">
+                    <view class="item-price">
+                        <view class="price">￥<text>98.00</text></view>
+                        <view class="type">开团券</view>
+                    </view>
+                    <view class="item-info">
+                        <view class="item-title">5元开团兑换券5元开团兑换券</view>
+                        <view class="item-limit">满80元可用</view>
+                        <view class="item-date">2019.12.12 - 2019.12.22</view>
+                    </view>
+                </view>
+                <view class="item-footer">
+                    <view class="item-desc">1、撒旦法撒旦法岁的法斯蒂芬</view>
+                    <view class="item-desc">2、各回各家发过火和豆腐干地方</view>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+</view>

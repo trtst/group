@@ -1,0 +1,113 @@
+/* pages/coupon/coupon.wxss */
+
+.bindCoupon {
+    display: flex;
+    padding: 20rpx 20rpx 0;
+}
+.bindCoupon input {
+    flex: 1;
+    height: 80rpx;
+    line-height: 80rpx;
+    padding: 0 10rpx;
+    margin-right: 20rpx;
+    font-size: 28rpx;
+    border-radius: 6rpx;
+    background: #fff;
+}
+.bindCoupon button {
+    width: 100rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 28rpx;
+    background: #FF5e46;
+    color: #fff;
+}
+
+.item {
+    border-top: 8rpx solid #FF5e46;
+    margin: 20rpx;
+    border-radius: 10rpx;
+    background: #fff;
+}
+.item-main {
+    display: flex;
+    padding: 20rpx 0;
+}
+.item-price {
+    width: 260rpx;
+    color: #FF5e46;
+    text-align: center;
+}
+.price {
+    padding-top: 30rpx;
+    font-size: 36rpx;
+}
+.price text {
+    display: inline-block;
+    font-size: 50rpx;
+    line-height: 56rpx;
+    vertical-align: bottom;
+}
+.type {
+    font-size: 28rpx;
+    color: #999;
+}
+.item-info {
+    flex: 1;
+    padding-right: 20rpx;
+}
+.item-title {
+    height: 80rpx;
+    line-height: 40rpx;
+    font-size: 36rpx;
+}
+.item-limit {
+    height: 40rpx;
+    line-height: 40rpx;
+    font-size: 24rpx;
+    color: #FF5e46;
+}
+.item-date {
+    height: 40rpx;
+    line-height: 40rpx;
+    font-size: 28rpx;
+    color: #999;
+}
+.item-footer {
+    position: relative;
+    padding: 20rpx 0;
+    border-top: 2rpx dashed #f9f9f9;
+    margin: 0 20rpx;
+}
+.item-desc {
+    line-height: 32zrpx;
+    font-size: 24rpx;
+    color: #999;
+}
+.item-footer::after, .item-footer::before {
+    display: inline-block;
+    position: absolute;
+    top: -20rpx;
+    content: "";
+    width: 40rpx;
+    height: 40rpx;
+    border-radius: 100%;
+    background: #F7F7F7;
+}
+.item-footer::after {
+    left: -40rpx;
+}
+.item-footer::before {
+    right: -40rpx;
+}
+
+.used {
+    color: #ccc;
+    border-top-color: #ccc; 
+}
+.used .item-price, .used .type, .used .item-limit, .used .item-date, .used .item-desc {
+    color: #ccc;
+}

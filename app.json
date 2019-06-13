@@ -10,7 +10,8 @@
         "pages/report/report",
         "pages/shopping/shopping",
         "pages/orderInfo/orderInfo",
-        "pages/orderDetail/orderDetail"
+        "pages/orderDetail/orderDetail",
+        "pages/coupon/coupon"
     ],
     "tabBar": {
         "color": "#333",
