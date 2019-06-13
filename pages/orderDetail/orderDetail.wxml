@@ -3,8 +3,33 @@
         <navigationBar id="navigationBar" title="{{title}}" color="{{color}}" back="{{back}}"></navigationBar>
         <scroll-view class="main" scroll-y style="height:{{maxH}}px">
             <view class="delivery">
-                <view class="status">待收货</view>
+                <view class="status">
+                    <text>待收货</text>
+                </view>
                 <image src="/assets/img/status.png"></image>
+            </view>
+            <view class="status-list">
+                <view class="status-item">
+                    <image class="status-icon" src="/assets/img/timelist.png"></image>
+                    <view class="status-info">
+                        <view class="status-des">您的订单待配送</view>
+                        <view class="status-date">2019-05-05 01：16</view>
+                    </view>
+                </view>
+                <view class="status-item">
+                    <image class="status-icon" src="/assets/img/timelist.png"></image>
+                    <view class="status-info">
+                        <view class="status-des">您的订单开始处理</view>
+                        <view class="status-date">2019-05-05 00：16</view>
+                    </view>
+                </view>
+            </view>
+            <view class="address">
+                <image class="addr-icon" src="/assets/img/address.png"></image>
+                <view class="addr-info">
+                    <view class="addr-name"><text class="name">怀旧的文学小青年</text><text class="tel">17600123456</text></view>
+                    <view class="addr-des">北京市朝阳区螺丝孔带饭了斯柯达解放</view>
+                </view>
             </view>
             <view class="goods">
                 <view class="goods-item">
