@@ -49,6 +49,45 @@
                     <image class="addr-arrow" src="/assets/img/back.png"></image>
                 </view>
             </view>
+            <view class="base-info">
+                <view class="base-box">
+                    <view class="base-title">商品总额</view>
+                    <view class="base-des">￥176.00</view>
+                </view>
+                <view class="base-box">
+                    <view class="base-title">优惠</view>
+                    <view class="base-des">-￥1.00</view>
+                </view>
+                <view class="base-box">
+                    <view class="base-title">运费</view>
+                    <view class="base-des">包邮</view>
+                </view>
+                <view class="price-total">
+                    合计：<text class="red">￥1456</text>
+                </view>
+            </view>
+            <view class="base-info">
+                <view class="base-box">
+                    <view class="base-title">订单编号</view>
+                    <view class="base-des">481737761084289966</view>
+                </view>
+                <view class="base-box">
+                    <view class="base-title">下单时间</view>
+                    <view class="base-des">2019-05-05 12：00</view>
+                </view>
+                <view class="base-box">
+                    <view class="base-title">支付方式</view>
+                    <view class="base-des">微信支付</view>
+                </view>
+                <view class="base-box">
+                    <view class="base-title">配送方式</view>
+                    <view class="base-des">自提</view>
+                </view>
+            </view>
         </scroll-view>
+        <view class="footer">
+            <view class="cancel">取消订单</view>
+            <view class="sub">付款</view>
+        </view>
     </view>
 </view>

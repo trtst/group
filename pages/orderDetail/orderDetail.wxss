@@ -1,3 +1,7 @@
+.red {
+    color: #FF6757;
+}
+
 .delivery {
     display: flex;
     padding: 40rpx;
@@ -126,4 +130,67 @@
     opacity: .5;
     vertical-align: top;
     transform: rotate(180deg);
+}
+
+.base-info {
+    padding:10rpx 20rpx;
+    margin:20rpx 0;
+    background:#fff;
+}
+.base-box {
+    display: flex;
+    padding: 20rpx 0;
+    font-size: 0;
+    border-bottom: 2rpx solid #f8f8f8;
+}
+.base-box:last-child {
+    border: 0;
+}
+.base-title, .base-des {
+    font-size: 28rpx;
+    line-height: 40rpx;
+}
+.base-des {
+    flex: 1;
+    text-align: right;
+    font-size: 28rpx;
+}
+.base-arrow {
+    width: 30rpx;
+    height: 30rpx;
+    margin-top: 6rpx;
+    opacity: .3;
+    transform: rotate(180deg);
+}
+.price-total {
+    padding: 10rpx 0 0;
+    text-align: right;
+    font-size: 32rpx;
+    line-height: 80rpx;
+}
+
+.footer {
+    width: 100%;
+    height: 100rpx;
+    line-height: 60rpx;
+    font-size: 0;
+    text-align: right;
+    background: #fff;
+}
+.cancel, .sub {
+    display: inline-block;
+    width: 160rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    border: 2rpx solid #bbb;
+    margin: 25rpx 20rpx 0 0;
+    border-radius: 30rpx;
+    text-align: center;
+    font-size: 28rpx;
+    color: #aaa;
+}
+
+.sub {
+    color: #FF6757;
+    border-color: #FF6757;
 }
