@@ -1,2 +1,19 @@
-<!--pages/detail/detail.wxml-->
-<text>pages/detail/detail.wxml</text>
+<view class="container">
+    <view class="orderDetail">
+        <navigationBar id="navigationBar" title="{{title}}" color="{{color}}" back="{{back}}"></navigationBar>
+        <scroll-view class="main" scroll-y style="height:{{maxH}}px">
+            <swiper class="slide" indicator-dots autoplay circular>
+                <swiper-item class="slide-item">
+                    <image src="/assets/img/avatar.jpg"></image>
+                </swiper-item>
+                <swiper-item class="slide-item">
+                    <image src="/assets/img/empty.png"></image>
+                </swiper-item>
+            </swiper>
+        </scroll-view>
+        <view class="footer">
+            <view class="cancel">取消订单</view>
+            <view class="sub">付款</view>
+        </view>
+    </view>
+</view>
