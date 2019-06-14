@@ -1,0 +1,39 @@
+<view class="container">
+    <view class="goodsList">
+        <navigationBar id="navigationBar" title="{{title}}" color="{{color}}" back="{{back}}"></navigationBar>
+        <scroll-view class="main" scroll-y style="height:{{maxH}}px">
+            <view class="list">
+                <view class="item">
+                    <image class="pic" src="/assets/img/avatar.jpg"></image>
+                    <view class="item-info">
+                        <view class="item-title">泰国进口红毛丹</view>
+                        <view class="item-box">
+                            <view class="item-price">￥<text>123</text></view>
+                            <view class="item-amount">x1</view>
+                        </view>
+                    </view>
+                </view>
+                <view class="item">
+                    <image class="pic" src="/assets/img/avatar.jpg"></image>
+                    <view class="item-info">
+                        <view class="item-title">泰国进口红毛丹</view>
+                        <view class="item-box">
+                            <view class="item-price">￥<text>123</text></view>
+                            <view class="item-amount">x1</view>
+                        </view>
+                    </view>
+                </view>
+                <view class="item">
+                    <image class="pic" src="/assets/img/avatar.jpg"></image>
+                    <view class="item-info">
+                        <view class="item-title">泰国进口红毛丹</view>
+                        <view class="item-box">
+                            <view class="item-price">￥<text>123</text></view>
+                            <view class="item-amount">x1</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+</view>

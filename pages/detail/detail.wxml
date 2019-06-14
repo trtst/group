@@ -1,19 +1,46 @@
 <view class="container">
-    <view class="orderDetail">
+    <view class="detail">
         <navigationBar id="navigationBar" title="{{title}}" color="{{color}}" back="{{back}}"></navigationBar>
         <scroll-view class="main" scroll-y style="height:{{maxH}}px">
             <swiper class="slide" indicator-dots autoplay circular>
                 <swiper-item class="slide-item">
-                    <image src="/assets/img/avatar.jpg"></image>
+                    <image class="slide-img" src="/assets/img/avatar.jpg"></image>
                 </swiper-item>
                 <swiper-item class="slide-item">
-                    <image src="/assets/img/empty.png"></image>
+                    <image class="slide-img" src="/assets/img/empty.png"></image>
                 </swiper-item>
             </swiper>
+            <view class="info">
+                <view class="title">浙江仙居杨梅300g浙江仙居杨梅300g*1盒</view>
+                <view class="desc">就是小学课本上那种杨梅</view>
+                <view class="price">
+                    <view class="stint">1件成团</view>
+                    <view class="real">￥129.00</view>
+                    <view class="original">￥129.00</view>
+                    <view class="sale">已售<text>123</text>件</view>
+                </view>
+                <view class="brief">就是小学课本上那种杨梅就是小学课本上那种杨梅就是小学课本上那种杨梅就是小学课本上那种杨梅就是小学课本上那种杨梅</view>
+                <view class="bottom">
+                    <text class="bottom-item"><text>全国地区</text>配送</text>
+                    <text class="bottom-item">截团后<text>次日</text>发货</text>
+                </view>
+            </view>
+            <view class="desciption">
+                这是商品的详细介绍
+            </view>
         </scroll-view>
         <view class="footer">
-            <view class="cancel">取消订单</view>
-            <view class="sub">付款</view>
+            <view class="collect">
+                <image src="/assets/img/collect.png"></image>
+                <view class="txt">收藏</view>
+            </view>
+            <view class="cart">
+                <image src="/assets/img/shopping.png"></image>
+                <view class="txt">购物车</view>
+                <view class="num">99</view>
+            </view>
+            <view class="add">加入购物车</view>
+            <view class="go">立即购买</view>
         </view>
     </view>
 </view>

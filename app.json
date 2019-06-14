@@ -12,7 +12,9 @@
         "pages/orderInfo/orderInfo",
         "pages/orderDetail/orderDetail",
         "pages/coupon/coupon",
-        "pages/user/user"
+        "pages/user/user",
+        "pages/detail/detail",
+        "pages/goodsList/goodsList"
     ],
     "tabBar": {
         "color": "#333",
