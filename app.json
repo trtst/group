@@ -11,7 +11,8 @@
         "pages/shopping/shopping",
         "pages/orderInfo/orderInfo",
         "pages/orderDetail/orderDetail",
-        "pages/coupon/coupon"
+        "pages/coupon/coupon",
+        "pages/user/user"
     ],
     "tabBar": {
         "color": "#333",
@@ -30,7 +31,7 @@
                 "text": "购物车"
             },
             {
-                "pagePath": "pages/index/index",
+                "pagePath": "pages/user/user",
                 "iconPath": "assets/img/center.png",
                 "selectedIconPath": "assets/img/center_hover.png",
                 "text": "个人中心"

@@ -1,0 +1,50 @@
+<view class="container">
+    <view class="user">
+        <navigationBar id="navigationBar" title="{{title}}" color="{{color}}"></navigationBar>
+        <scroll-view class="main" scroll-y style="height:{{maxH}}px">
+            <view class="header">
+                <image class="avatar" src="/assets/img/avatar.jpg"></image>
+                <view class="info">
+                    <view class="info-name">怀旧的文学小青年<text>Lv: 1</text></view>
+                    <view class="info-type">普通用户</view>
+                </view>
+            </view>
+            <view class="order">
+                <view class="order-title">订单管理</view>
+                <view class="order-main">
+                    <view class="item" bindtap="getAddress">
+                        <view class="item-ico">
+                            <image src="/assets/img/pay.png"></image>
+                        </view>
+                        <view class="item-name">待付款</view>
+                    </view>
+                    <view class="item" bindtap="getAddress">
+                        <view class="item-ico">
+                            <image src="/assets/img/paid.png"></image>
+                        </view>
+                        <view class="item-name">已付款</view>
+                    </view>
+                    <view class="item" bindtap="getAddress">
+                        <view class="item-ico">
+                            <image src="/assets/img/orders.png"></image>
+                        </view>
+                        <view class="item-name">全部订单</view>
+                    </view>
+                </view>
+            </view>
+            <view class="list">
+                <view class="item">
+                    <image class="list-icon" src="/assets/img/addr.png"></image>
+                    <text class="list-title">收货地址</text>
+                    <image class="list-arrow" src="/assets/img/back.png"></image>
+                </view>
+                <view class="item">
+                    <image class="list-icon" src="/assets/img/coup.png"></image>
+                    <text class="list-title">优惠券</text>
+                    <image class="list-arrow" src="/assets/img/back.png"></image>
+                </view>
+            </view>
+            <view class="out">退出登录</view>
+        </scroll-view>
+    </view>
+</view>
