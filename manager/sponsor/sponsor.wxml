@@ -1,3 +1,4 @@
+<!--开团管理页面-->
 <view class="container">
     <view class="sponsor">
         <view class="head">
@@ -19,21 +20,21 @@
                 <view class="amount-num">115</view>
                 成交订单
             </view>
-            <view class="amount-item">
+            <navigator url="/pages/mallUser/mallUser?jump=index" open-type="navigate" class="amount-item">
                 <view class="amount-num">115</view>
                 用户数
-            </view>
+            </navigator>
         </view>
         <view class="list">
             <view class="list-title">我的服务</view>
             <view class="list-main">
-                <navigator url="/pages/product/product?jump=index" open-type="navigate" class="item">
+                <navigator url="/manager/product/product?jump=index" open-type="navigate" class="item">
                     <view class="item-ico">
                         <image src="/assets/img/product.png"></image>
                     </view>
                     <view class="item-name">产品库管理</view>
                 </navigator>
-                <navigator url="/pages/mall/mall?jump=index" open-type="navigate" class="item">
+                <navigator url="/manager/mall/mall?jump=index" open-type="navigate" class="item">
                     <view class="item-ico">
                         <image src="/assets/img/mall.png"></image>
                     </view>
@@ -51,7 +52,7 @@
                     </view>
                     <view class="item-name">优惠券</view>
                 </navigator>
-                <navigator url="/pages/report/report?jump=index" open-type="navigate" class="item">
+                <navigator url="/manager/report/report?jump=index" open-type="navigate" class="item">
                     <view class="item-ico">
                         <image src="/assets/img/report.png"></image>
                     </view>

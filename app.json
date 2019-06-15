@@ -1,20 +1,10 @@
 {
     "pages": [
+        "pages/jump/jump",
         "pages/index/index",
-        "pages/sponsor/sponsor",
-        "pages/order/order",
-        "pages/mall/mall",
-        "pages/product/product",
-        "pages/home/home",
-        "pages/mallUser/mallUser",
-        "pages/report/report",
         "pages/shopping/shopping",
-        "pages/orderInfo/orderInfo",
-        "pages/orderDetail/orderDetail",
-        "pages/coupon/coupon",
         "pages/user/user",
-        "pages/detail/detail",
-        "pages/goodsList/goodsList"
+        "pages/login/login"
     ],
     "tabBar": {
         "color": "#333",
@@ -47,5 +37,13 @@
         "navigationBarTextStyle": "black",
         "navigationStyle": "custom"
     },
+    "subpackages": [
+        {
+            "root": "manager",
+            "pages": [
+                "sponsor"
+            ]
+        }
+    ],
     "sitemapLocation": "sitemap.json"
 }

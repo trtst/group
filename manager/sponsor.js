@@ -1,4 +1,4 @@
-// pages/report/report.js
+// manager//sponsor.js
 Page({
 
     /**

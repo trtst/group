@@ -1,0 +1,112 @@
+<view class="container">
+    <view class="report">
+        <navigationBar id="navigationBar" title="{{title}}" color="{{color}}" back="{{back}}"></navigationBar>
+        <scroll-view class="main" scroll-y style="height:{{maxH}}px">
+            <view class="top">
+                <view class="top-main">
+                    <view class="top-info">
+                        <view class="top-title">可使用金额<text>当前累计的总额</text></view>
+                        <view class="top-price"><text>￥</text>123.00</view>
+                    </view>
+                    <view class="top-btn">提现</view>
+                </view>
+            </view>
+            <view class="list">
+                <view class="list-title">激励明细</view>
+                <view class="item">
+                    <image class="avatar" src="/assets/img/avatar.jpg"></image>
+                    <view class="item-info">
+                        <view class="name">怀旧的文学小青年</view>
+                        <view class="date">2019-05-05 20:31</view>
+                    </view>
+                    <view class="score">+￥4</view>
+                </view>
+                <view class="item">
+                    <view class="item-info">
+                        <view class="name">提现</view>
+                        <view class="date">2019-05-05 20:31</view>
+                    </view>
+                    <view class="score">-￥4</view>
+                </view>
+                <view class="item">
+                    <image class="avatar" src="/assets/img/avatar.jpg"></image>
+                    <view class="item-info">
+                        <view class="name">怀旧的文学小青年</view>
+                        <view class="date">2019-05-05 20:31</view>
+                    </view>
+                    <view class="score">+￥4</view>
+                </view>
+                <view class="item">
+                    <image class="avatar" src="/assets/img/avatar.jpg"></image>
+                    <view class="item-info">
+                        <view class="name">怀旧的文学小青年</view>
+                        <view class="date">2019-05-05 20:31</view>
+                    </view>
+                    <view class="score">+￥4</view>
+                </view>
+                <view class="item">
+                    <image class="avatar" src="/assets/img/avatar.jpg"></image>
+                    <view class="item-info">
+                        <view class="name">怀旧的文学小青年</view>
+                        <view class="date">2019-05-05 20:31</view>
+                    </view>
+                    <view class="score">+￥4</view>
+                </view>
+                <view class="item">
+                    <view class="item-info">
+                        <view class="name">提现</view>
+                        <view class="date">2019-05-05 20:31</view>
+                    </view>
+                    <view class="score">-￥4</view>
+                </view>
+                <view class="item">
+                    <image class="avatar" src="/assets/img/avatar.jpg"></image>
+                    <view class="item-info">
+                        <view class="name">怀旧的文学小青年</view>
+                        <view class="date">2019-05-05 20:31</view>
+                    </view>
+                    <view class="score">+￥4</view>
+                </view>
+                <view class="item">
+                    <image class="avatar" src="/assets/img/avatar.jpg"></image>
+                    <view class="item-info">
+                        <view class="name">怀旧的文学小青年</view>
+                        <view class="date">2019-05-05 20:31</view>
+                    </view>
+                    <view class="score">+￥4</view>
+                </view>
+                <view class="item">
+                    <image class="avatar" src="/assets/img/avatar.jpg"></image>
+                    <view class="item-info">
+                        <view class="name">怀旧的文学小青年</view>
+                        <view class="date">2019-05-05 20:31</view>
+                    </view>
+                    <view class="score">+￥4</view>
+                </view>
+                <view class="item">
+                    <view class="item-info">
+                        <view class="name">提现</view>
+                        <view class="date">2019-05-05 20:31</view>
+                    </view>
+                    <view class="score">-￥4</view>
+                </view>
+                <view class="item">
+                    <image class="avatar" src="/assets/img/avatar.jpg"></image>
+                    <view class="item-info">
+                        <view class="name">怀旧的文学小青年</view>
+                        <view class="date">2019-05-05 20:31</view>
+                    </view>
+                    <view class="score">+￥4</view>
+                </view>
+                <view class="item">
+                    <image class="avatar" src="/assets/img/avatar.jpg"></image>
+                    <view class="item-info">
+                        <view class="name">怀旧的文学小青年</view>
+                        <view class="date">2019-05-05 20:31</view>
+                    </view>
+                    <view class="score">+￥4</view>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+</view>

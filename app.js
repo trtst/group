@@ -12,6 +12,13 @@ App({
         if (JSON.stringify(self.globalData.calcData) == '{}') {
             self.calc();
         }
+
+        if (!self.globalData.isLogin) {
+            self.getLogin();
+        }
+    },
+    getLogin() {
+        console.log("登录状态")
     },
     calc() {
         const self = this,

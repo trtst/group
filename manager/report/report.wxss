@@ -1,0 +1,84 @@
+.top {
+    padding: 20rpx;
+}
+.top-main {
+    display: flex;
+    padding: 30rpx;
+    border-radius: 20rpx;
+    font-size: 0;
+    background: #fff;
+    box-shadow:0px 2rpx 10rpx -2rpx rgba(211,218,230,1);
+}
+.top-info {
+    flex: 1;
+}
+.top-title {
+    font-size: 28rpx;
+}
+.top-title text {
+    display: inline-block;
+    padding-left: 10rpx;
+    font-size: 24rpx;
+    color: #999;
+}
+.top-price {
+    padding-top: 20rpx;
+    font-size: 50rpx;
+    color: #FF7D09;
+}
+.top-price text {
+    font-size: 32rpx;
+}
+.top-btn {
+    width: 100rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    border: 2rpx solid #999;
+    text-align: center;
+    font-size: 28rpx;
+    border-radius: 10rpx;
+    color: #999;
+}
+
+.list {
+    padding: 30rpx;
+    margin: 20rpx;
+    border-radius: 20rpx;
+    font-size: 0;
+    background: #fff;
+}
+.list-title {
+    font-size: 28rpx;
+    padding-bottom: 40rpx;
+}
+.item {
+    display: flex;
+    padding-bottom: 20rpx;
+    border-bottom: 2rpx solid #f7f7f7;
+    margin-bottom: 20rpx;
+}
+.item .avatar {
+    width: 100rpx;
+    height: 100rpx;
+    margin-right: 20rpx;
+    border-radius: 100%;
+}
+.item-info {
+    flex: 1;
+}
+.name {
+    line-height: 60rpx;
+    font-size: 28rpx;
+}
+.date {
+    line-height: 40rpx;
+    font-size: 24rpx;
+    color: #999;
+}
+.score {
+    width: 100rpx;
+    line-height: 100rpx;
+    text-align: right;
+    font-size: 28rpx;
+    color: #666;
+}
