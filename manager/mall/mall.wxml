@@ -84,10 +84,10 @@
                     </view>
                 </view>
             </view>
-           <view class="no-content">
+           <!-- <view class="no-content">
                 <image src="/assets/img/empty.png" class="no-content-bg" mode="aspectFit"></image>
                 <text class="no-content-title">暂无产品</text>
-            </view>
+            </view> -->
         </scroll-view>
     </view>
 </view>

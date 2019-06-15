@@ -1,0 +1,78 @@
+<template name="order">
+    <view class="item">
+        <view class="item-header">
+            <view class="item-user"><image class="author" src="/assets/img/avatar.jpg" mode="aspectFit"></image><text class="item-name">怀旧的文学小青年</text></view>
+            <view class="item-date">下单时间： 2019-05-30</view>
+        </view>
+        <view class="item-main">
+            <image class="img" src="/assets/img/avatar.jpg" mode="aspectFit"></image>
+            <view class="item-info">
+                <view class="item-title">陆家村有机稻花香米</view>
+                <view class="item-desc">5kg 9年的有机坚持 只为真实好米</view>
+            </view>
+            <view class="item-price">
+                <view class="price">￥168</view>
+                <view class="add">x1</view>
+            </view>
+        </view>
+        <view class="item-amount">共1件商品 实付：<text class="red">￥168</text></view>
+        <view class="item-footer">
+            <text class="item-btn cancel">取消订单</text>
+            <text class="item-btn pay">未支付</text>
+        </view>
+    </view>
+    <view class="item">
+        <view class="item-header">
+            <view class="item-user"><image class="author" src="/assets/img/avatar.jpg" mode="aspectFit"></image><text class="item-name">怀旧的文学小青年</text></view>
+            <view class="item-date">下单时间： 2019-05-30</view>
+        </view>
+        <view class="item-main">
+            <image class="img" src="/assets/img/avatar.jpg" mode="aspectFit"></image>
+            <view class="item-info">
+                <view class="item-title">陆家村有机稻花香米</view>
+                <view class="item-desc">5kg 9年的有机坚持 只为真实好米</view>
+            </view>
+            <view class="item-price">
+                <view class="price">￥168</view>
+                <view class="add">x1</view>
+            </view>
+        </view>
+        <view class="item-main">
+            <image class="img" src="/assets/img/avatar.jpg" mode="aspectFit"></image>
+            <view class="item-info">
+                <view class="item-title">陆家村有机稻花香米</view>
+                <view class="item-desc">5kg 9年的有机坚持 只为真实好米</view>
+            </view>
+            <view class="item-price">
+                <view class="price">￥168</view>
+                <view class="add">x1</view>
+            </view>
+        </view>
+        <view class="item-amount">共2件商品 实付：<text class="red">￥168</text></view>
+        <view class="item-footer">
+            <text class="item-btn go">已支付</text>
+        </view>
+    </view>
+    <view class="item">
+        <view class="item-header">
+            <view class="item-user"><image class="author" src="/assets/img/avatar.jpg" mode="aspectFit"></image><text class="item-name">怀旧的文学小青年</text></view>
+            <view class="item-date">下单时间： 2019-05-30</view>
+        </view>
+        <view class="item-main">
+            <image class="img" src="/assets/img/avatar.jpg" mode="aspectFit"></image>
+            <view class="item-info">
+                <view class="item-title">陆家村有机稻花香米</view>
+                <view class="item-desc">5kg 9年的有机坚持 只为真实好米</view>
+            </view>
+            <view class="item-price">
+                <view class="price">￥168</view>
+                <view class="add">x1</view>
+            </view>
+        </view>
+        <view class="item-amount">共1件商品 实付：<text class="red">￥168</text></view>
+        <view class="item-footer">
+            <text class="item-btn cancel">取消订单</text>
+            <text class="item-btn pay">去支付</text>
+        </view>
+    </view>
+</template>

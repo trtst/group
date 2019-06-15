@@ -1,29 +1,30 @@
 {
     "pages": [
         "pages/jump/jump",
-        "pages/index/index",
-        "pages/shopping/shopping",
-        "pages/user/user",
-        "pages/login/login"
+        "pages/menu/index/index",
+        "pages/menu/shopping/shopping",
+        "pages/menu/user/user",
+        "pages/login/login",
+        "template/order/order"
     ],
     "tabBar": {
         "color": "#333",
         "selectedColor": "#ffa400",
         "list": [
             {
-                "pagePath": "pages/index/index",
+                "pagePath": "pages/menu/index/index",
                 "iconPath": "assets/img/index.png",
                 "selectedIconPath": "assets/img/index_hover.png",
                 "text": "首页"
             },
             {
-                "pagePath": "pages/shopping/shopping",
+                "pagePath": "pages/menu/shopping/shopping",
                 "iconPath": "assets/img/shopping.png",
                 "selectedIconPath": "assets/img/shopping_hover.png",
                 "text": "购物车"
             },
             {
-                "pagePath": "pages/user/user",
+                "pagePath": "pages/menu/user/user",
                 "iconPath": "assets/img/center.png",
                 "selectedIconPath": "assets/img/center_hover.png",
                 "text": "个人中心"
@@ -41,7 +42,19 @@
         {
             "root": "manager",
             "pages": [
-                "sponsor"
+                "sponsor/sponsor"
+            ]
+        },
+        {
+            "root": "pages/subpage",
+            "pages": [
+                "coupon/coupon",
+                "detail/detail",
+                "goods/goods",
+                "mallUser/mallUser",
+                "order/order",
+                "orderDetail/orderDetail",
+                "orderInfo/orderInfo"
             ]
         }
     ],

@@ -1,0 +1,21 @@
+<import src="../../../template/order/order.wxml"/>
+
+<view class="container">
+    <view class="order">
+        <navigationBar id="navigationBar" title="{{title}}" color="{{color}}" back="{{back}}"></navigationBar>
+        <view class="tab">
+            <text class="tab-item all active">全部订单</text>
+            <text class="tab-item await">待付款</text>
+            <text class="tab-item paid">已付款</text>
+        </view>
+        <scroll-view class="list" scroll-y style="height:{{mainH}}px">
+            <view class="list-main">
+                <template is="order" />
+            </view>
+           <!-- <view class="no-content">
+                <image src="/assets/img/empty.png" class="no-content-bg" mode="aspectFit"></image>
+                <text class="no-content-title">暂无订单</text>
+            </view> -->
+        </scroll-view>
+    </view>
+</view>

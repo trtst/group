@@ -47,11 +47,44 @@
                     </view>
                     <view class="item-btn">加入</view>
                 </view>
+                <view class="item">
+                    <image class="pic" src="/assets/img/avatar.jpg"></image>
+                    <view class="item-info">
+                        <view class="item-title">南非红心果肉葡萄柚</view>
+                        <view class="item-price">
+                            <view class="price-supply"><view class="price">￥35</view>供货价</view>
+                            <view class="price-sale"><view class="price">￥45</view>建议价</view>
+                        </view>
+                    </view>
+                    <view class="item-btn">加入</view>
+                </view>
+                <view class="item">
+                    <image class="pic" src="/assets/img/avatar.jpg"></image>
+                    <view class="item-info">
+                        <view class="item-title">南非红心果肉葡萄柚</view>
+                        <view class="item-price">
+                            <view class="price-supply"><view class="price">￥35</view>供货价</view>
+                            <view class="price-sale"><view class="price">￥45</view>建议价</view>
+                        </view>
+                    </view>
+                    <view class="item-btn">加入</view>
+                </view>
+                <view class="item">
+                    <image class="pic" src="/assets/img/avatar.jpg"></image>
+                    <view class="item-info">
+                        <view class="item-title">南非红心果肉葡萄柚</view>
+                        <view class="item-price">
+                            <view class="price-supply"><view class="price">￥35</view>供货价</view>
+                            <view class="price-sale"><view class="price">￥45</view>建议价</view>
+                        </view>
+                    </view>
+                    <view class="item-btn">加入</view>
+                </view>
             </view>
-           <view class="no-content">
+           <!-- <view class="no-content">
                 <image src="/assets/img/empty.png" class="no-content-bg" mode="aspectFit"></image>
                 <text class="no-content-title">暂无产品</text>
-            </view>
+            </view> -->
         </scroll-view>
     </view>
 </view>

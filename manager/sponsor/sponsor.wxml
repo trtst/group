@@ -40,13 +40,13 @@
                     </view>
                     <view class="item-name">社群商城</view>
                 </navigator>
-                <navigator url="/pages/order/order?jump=index" open-type="navigate" class="item">
+                <navigator url="/pages/subpage/order/order?jump=index" open-type="navigate" class="item">
                     <view class="item-ico">
                         <image src="/assets/img/order.png"></image>
                     </view>
                     <view class="item-name">社群订单</view>
                 </navigator>
-                <navigator url="/pages/coupon/coupon?jump=index" open-type="navigate" class="item">
+                <navigator url="/pages/subpage/coupon/coupon?jump=index" open-type="navigate" class="item">
                     <view class="item-ico">
                         <image src="/assets/img/coupon.png"></image>
                     </view>

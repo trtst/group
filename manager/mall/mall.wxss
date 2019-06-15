@@ -3,10 +3,14 @@
     height: 100%;
 }
 
+.list-main {
+    height: calc(100% - 20rpx);
+    padding-top: 20rpx;
+}
 .item {
     display: flex;
     padding: 20rpx;
-    margin: 20rpx 0;
+    margin-bottom: 20rpx;
     background: #fff;
 }
 .item .pic {
