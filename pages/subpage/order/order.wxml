@@ -10,7 +10,7 @@
         </view>
         <scroll-view class="list" scroll-y style="height:{{mainH}}px">
             <view class="list-main">
-                <template is="order" />
+                <template is="orderTemp" />
             </view>
            <!-- <view class="no-content">
                 <image src="/assets/img/empty.png" class="no-content-bg" mode="aspectFit"></image>

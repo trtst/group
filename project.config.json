@@ -41,7 +41,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 14,
+			"current": 11,
 			"list": [
 				{
 					"id": -1,
@@ -86,16 +86,16 @@
 					"scene": null
 				},
 				{
-					"id": -1,
+					"id": 6,
 					"name": "确认订单",
-					"pathName": "pages/orderInfo/orderInfo",
+					"pathName": "pages/subpage/orderInfo/orderInfo",
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
 					"name": "订单详情",
-					"pathName": "pages/orderDetail/orderDetail",
+					"pathName": "pages/subpage/orderDetail/orderDetail",
 					"query": "",
 					"scene": null
 				},
@@ -116,21 +116,21 @@
 				{
 					"id": 10,
 					"name": "团长",
-					"pathName": "manager/sponsor/sponsor",
+					"pathName": "pages/sponsor/sponsor",
 					"query": "",
 					"scene": null
 				},
 				{
-					"id": -1,
+					"id": 11,
 					"name": "商品详情",
-					"pathName": "pages/detail/detail",
+					"pathName": "pages/subpage/detail/detail",
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
 					"name": "商品列表",
-					"pathName": "pages/goodsList/goodsList",
+					"pathName": "pages/subpage/goodsList/goodsList",
 					"query": "",
 					"scene": null
 				},
@@ -144,7 +144,7 @@
 				{
 					"id": -1,
 					"name": "首页",
-					"pathName": "pages/menu/index/index",
+					"pathName": "pages/index/index",
 					"query": "",
 					"scene": null
 				}

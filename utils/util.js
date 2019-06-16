@@ -1,19 +1,25 @@
-const formatTime = date => {
-  const year = date.getFullYear()
-  const month = date.getMonth() + 1
-  const day = date.getDate()
-  const hour = date.getHours()
-  const minute = date.getMinutes()
-  const second = date.getSeconds()
-
-  return [year, month, day].map(formatNumber).join('/') + ' ' + [hour, minute, second].map(formatNumber).join(':')
+const domain = 'https://easy-mock.com/mock/5d06493de9774b3002faa898';
+const urls = {
+    'swiper': '/swiper',
+    'goodsList': '/goodsList'
 }
-
-const formatNumber = n => {
-  n = n.toString()
-  return n[1] ? n : '0' + n
+const http = (op = {}) => {
+    return new Promise((resolve, reject) => {
+        wx.request({
+            url: domain + op.path,
+            ...op,
+            method: op.method || 'GET',
+            success: function (res) {
+                resolve(res)
+            },
+            fail: function (res) {
+                reject(res)
+            }
+        })
+    });
 }
 
 module.exports = {
-  formatTime: formatTime
+  http: http,
+  urls: urls,
 }

@@ -7,16 +7,15 @@
         </view>
         <scroll-view class="list" scroll-y style="height:{{maxH}}px">
             <swiper class="slide" indicator-dots autoplay circular>
-                <swiper-item class="slide-item">
-                    <image src="/assets/img/avatar.jpg"></image>
-                </swiper-item>
-                <swiper-item class="slide-item">
-                    <image src="/assets/img/empty.png"></image>
-                </swiper-item>
+                <block wx:for="{{index[0]}}" wx:key="{{id}}">
+                    <swiper-item class="slide-item">
+                        <image src="{{item.img}}"></image>
+                    </swiper-item>
+                </block>
             </swiper>
             <view class="list-main">
                 <view class="item">
-                    <image class="pic" src="/assets/img/avatar.jpg"></image>
+                    <image class="pic" bindtap="goDetail" src="/assets/img/avatar.jpg"></image>
                     <view class="item-main">
                         <view class="item-title">泰国进口红毛丹</view>
                         <view class="item-desc">这是一段介绍</view>
@@ -76,10 +75,10 @@
                     </view>
                 </view>
             </view>
-           <view class="no-content">
+           <!-- <view class="no-content">
                 <image src="/assets/img/empty.png" class="no-content-bg" mode="aspectFit"></image>
                 <text class="no-content-title">购物车为空</text>
-            </view>
+            </view> -->
         </scroll-view>
     </view>
 </view>

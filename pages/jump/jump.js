@@ -14,14 +14,14 @@ Page({
                 case 0:
 
                     wx.navigateTo({
-                        url: '/manager/sponsor/sponsor'
+                        url: '/pages/sponsor/sponsor'
                     })
                     break;
 
                 case 1:
 
                     wx.switchTab({
-                        url: '/pages/menu/index/index'
+                        url: '/pages/index/index'
                     })
                     break;
             }

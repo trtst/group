@@ -1,30 +1,30 @@
 {
     "pages": [
         "pages/jump/jump",
-        "pages/menu/index/index",
-        "pages/menu/shopping/shopping",
-        "pages/menu/user/user",
-        "pages/login/login",
-        "template/order/order"
+        "pages/index/index",
+        "pages/shopping/shopping",
+        "pages/user/user",
+        "pages/sponsor/sponsor",
+        "pages/login/login"
     ],
     "tabBar": {
         "color": "#333",
         "selectedColor": "#ffa400",
         "list": [
             {
-                "pagePath": "pages/menu/index/index",
+                "pagePath": "pages/index/index",
                 "iconPath": "assets/img/index.png",
                 "selectedIconPath": "assets/img/index_hover.png",
                 "text": "首页"
             },
             {
-                "pagePath": "pages/menu/shopping/shopping",
+                "pagePath": "pages/shopping/shopping",
                 "iconPath": "assets/img/shopping.png",
                 "selectedIconPath": "assets/img/shopping_hover.png",
                 "text": "购物车"
             },
             {
-                "pagePath": "pages/menu/user/user",
+                "pagePath": "pages/user/user",
                 "iconPath": "assets/img/center.png",
                 "selectedIconPath": "assets/img/center_hover.png",
                 "text": "个人中心"
@@ -42,7 +42,10 @@
         {
             "root": "manager",
             "pages": [
-                "sponsor/sponsor"
+                "mall/mall",
+                "product/product",
+                "mallUser/mallUser",
+                "report/report"
             ]
         },
         {
@@ -51,12 +54,19 @@
                 "coupon/coupon",
                 "detail/detail",
                 "goods/goods",
-                "mallUser/mallUser",
                 "order/order",
+                "goodsList/goodsList",
                 "orderDetail/orderDetail",
                 "orderInfo/orderInfo"
             ]
         }
     ],
+    "preloadRule": {
+        "pages/sponsor/sponsor": {
+            "packages": [
+                "manager"
+            ]
+        }
+    },
     "sitemapLocation": "sitemap.json"
 }

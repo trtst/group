@@ -1,4 +1,4 @@
-<template name="order">
+<template name="orderTemp">
     <view class="item">
         <view class="item-header">
             <view class="item-user"><image class="author" src="/assets/img/avatar.jpg" mode="aspectFit"></image><text class="item-name">怀旧的文学小青年</text></view>

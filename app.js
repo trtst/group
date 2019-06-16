@@ -9,9 +9,7 @@ App({
         self.globalData.isLogin = isLogin;
         self.globalData.calcData = calcData;
 
-        if (JSON.stringify(self.globalData.calcData) == '{}') {
-            self.calc();
-        }
+        self.calc(wx.getSystemInfoSync());
 
         if (!self.globalData.isLogin) {
             self.getLogin();
@@ -20,9 +18,8 @@ App({
     getLogin() {
         console.log("登录状态")
     },
-    calc() {
+    calc(systemInfo) {
         const self = this,
-            systemInfo = wx.getSystemInfoSync(),
             reg = /ios/i;
 
         let pt = 20,         //导航状态栏上内边距
@@ -42,6 +39,7 @@ App({
             pt: pt
         }
         wx.setStorageSync('calcData', self.globalData.calcData);
+        console.log("计算高度")
     },
     globalData: {
         userInfo: {},

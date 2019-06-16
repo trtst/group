@@ -20,7 +20,7 @@
                 <view class="amount-num">115</view>
                 成交订单
             </view>
-            <navigator url="/pages/mallUser/mallUser?jump=index" open-type="navigate" class="amount-item">
+            <navigator url="/manager/mallUser/mallUser?jump=index" open-type="navigate" class="amount-item">
                 <view class="amount-num">115</view>
                 用户数
             </navigator>

@@ -15,5 +15,7 @@ Page({
         self.setData({
             back: jump == 'index' ? 'back' : 'home'
         });
+
+        app.calc(wx.getSystemInfoSync());
     },
 })

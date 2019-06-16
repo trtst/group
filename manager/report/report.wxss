@@ -48,7 +48,7 @@
     background: #fff;
 }
 .list-title {
-    font-size: 28rpx;
+    font-size: 32rpx;
     padding-bottom: 40rpx;
 }
 .item {
