@@ -9,5 +9,12 @@ Page({
     },
     onLoad: function (options) {
         const self = this;
+
+        app.calc(wx.getSystemInfoSync());
+        console.log(wx.getSystemInfoSync(), app.globalData)
+        self.setData({
+            maxH: app.globalData.calcData.mainH + app.globalData.calcData.pt + app.globalData.calcData.h - 100 / 2
+        });
+        wx.hideTabBar();
     },
 })

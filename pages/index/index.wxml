@@ -14,63 +14,15 @@
                 </block>
             </swiper>
             <view class="list-main">
-                <view class="item">
-                    <image class="pic" bindtap="goDetail" src="/assets/img/avatar.jpg"></image>
+                <view class="item" wx:for="{{index[1]}}" wx:key="{{id}}">
+                    <image class="pic" bindtap="goDetail" src="{{item.img}}" bindtap="goDetail" id="{{item.id}}"></image>
                     <view class="item-main">
-                        <view class="item-title">泰国进口红毛丹</view>
-                        <view class="item-desc">这是一段介绍</view>
+                        <view class="item-title" bindtap="goDetail">{{item.title}}</view>
+                        <view class="item-desc">{{item.desc}}</view>
                         <view class="item-bottom">
                             <view class="item-tips">内购价</view>
-                            <view class="item-price"><text class="current">￥23</text><text class="del">￥123</text></view>
-                            <image class="add" src="/assets/img/shop.png" mode="aspectFit"></image>
-                        </view>
-                    </view>
-                </view>
-                <view class="item">
-                    <image class="pic" src="/assets/img/avatar.jpg"></image>
-                    <view class="item-main">
-                        <view class="item-title">泰国进口红毛丹</view>
-                        <view class="item-desc">这是一段介绍</view>
-                        <view class="item-bottom">
-                            <view class="item-tips">内购价</view>
-                            <view class="item-price"><text class="current">￥23</text><text class="del">￥123</text></view>
-                            <image class="add" src="/assets/img/shop.png" mode="aspectFit"></image>
-                        </view>
-                    </view>
-                </view>
-                <view class="item">
-                    <image class="pic" src="/assets/img/avatar.jpg"></image>
-                    <view class="item-main">
-                        <view class="item-title">泰国进口红毛丹</view>
-                        <view class="item-desc">这是一段介绍</view>
-                        <view class="item-bottom">
-                            <view class="item-tips">内购价</view>
-                            <view class="item-price"><text class="current">￥23</text><text class="del">￥123</text></view>
-                            <image class="add" src="/assets/img/shop.png" mode="aspectFit"></image>
-                        </view>
-                    </view>
-                </view>
-                <view class="item">
-                    <image class="pic" src="/assets/img/avatar.jpg"></image>
-                    <view class="item-main">
-                        <view class="item-title">泰国进口红毛丹</view>
-                        <view class="item-desc">这是一段介绍</view>
-                        <view class="item-bottom">
-                            <view class="item-tips">内购价</view>
-                            <view class="item-price"><text class="current">￥23</text><text class="del">￥123</text></view>
-                            <image class="add" src="/assets/img/shop.png" mode="aspectFit"></image>
-                        </view>
-                    </view>
-                </view>
-                <view class="item">
-                    <image class="pic" src="/assets/img/avatar.jpg"></image>
-                    <view class="item-main">
-                        <view class="item-title">泰国进口红毛丹</view>
-                        <view class="item-desc">这是一段介绍</view>
-                        <view class="item-bottom">
-                            <view class="item-tips">内购价</view>
-                            <view class="item-price"><text class="current">￥23</text><text class="del">￥123</text></view>
-                            <image class="add" src="/assets/img/shop.png" mode="aspectFit"></image>
+                            <view class="item-price"><text class="current">￥{{item.price}}</text><text class="del">￥{{item.cost}}</text></view>
+                            <image class="add" src="/assets/img/shop.png" bindtap="addGoods" mode="aspectFit" id="{{item.id}}"></image>
                         </view>
                     </view>
                 </view>

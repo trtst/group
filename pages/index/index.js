@@ -18,6 +18,11 @@ Page({
             back: jump == 'index' ? 'back' : 'home'
         });
 
+        app.calc(wx.getSystemInfoSync());
+        self.setData({
+            maxH: app.globalData.calcData.mainH - 80 / 2
+        });
+
 
         // 获取焦点图
         const swiper = util.http({
@@ -44,7 +49,16 @@ Page({
             })
             .catch(e => console.log(e));
     },
-    goDetail () {
-        
+    goDetail(event) {
+        const { id } = event.currentTarget;
+
+        wx.navigateTo({
+            url: '/pages/subpage/detail/detail?id=1'
+        })
+    },
+    addGoods(event) {
+        const { id } = event.currentTarget;
+
+        console.log(id);
     }
 })

@@ -1,6 +1,6 @@
 /* pages/detail/detail.wxss */
 .detail {
-    
+    height: 100%;
 }
 
 .slide {
