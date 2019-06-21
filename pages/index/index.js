@@ -8,7 +8,8 @@ Page({
         title: '私蜜',
         color: 'black',
         back: 'back',
-        index: []
+        index: [],
+        cartNum: 0
     },
     onLoad: function (options) {
         const self = this;
@@ -42,7 +43,6 @@ Page({
                     d.push(item.data.data);
                 });
 
-                console.log(d)
                 self.setData({
                     index: d
                 });
@@ -57,8 +57,18 @@ Page({
         })
     },
     addGoods(event) {
+        const self = this;
         const { id } = event.currentTarget;
+        let { cartNum } = self.data;
 
-        console.log(id);
+        cartNum++
+        self.setData({
+            cartNum: cartNum
+        });
+        wx.setTabBarBadge({
+            index: 1,
+            text: cartNum + ''
+        })
+        console.log(cartNum);
     }
 })
